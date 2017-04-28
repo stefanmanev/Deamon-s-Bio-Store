@@ -1,0 +1,167 @@
+body, div, nav, main, ul, li, form, input {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'Variane Script';
+    src: url(../fonts/variane_script.ttf);
+}
+
+body {
+    background-color: #D1BEA9;
+}
+
+#wrapper {
+    background-color: #B49B7F;
+}
+
+#register {
+    list-style-type: none;
+    text-align: right;
+    margin-top: 10px;
+}
+
+#register li {
+    display: inline;
+}
+
+#register a.btn {
+    color: #000000;
+}
+
+#left-button {
+    border-right: 1px solid #000000;
+    padding-right: 12px;
+}
+
+#right-button {
+    padding-left: 10px;
+}
+
+#header {
+    font-family: 'Variane Script';
+    text-align: center;
+    font-size: 4em;
+    font-weight: 600;
+    color: #FDF6F0;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+nav {
+    margin-bottom: 20px;
+    padding-bottom: 4px;
+    border-bottom: 1px solid #FDF6F0;
+}
+
+#navigation {
+    list-style-type: none;
+}
+
+#navigation li {
+    display: inline;
+}
+
+#navigation::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+#navigation a.btn {
+    color: #FDF6F0;
+    font-weight: 600;
+    font-size: 1.2em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+#navigation a.btn:hover {
+    color: #634242;
+}
+
+input
+{
+    color: #909090;
+    border-radius: 8px;
+}
+
+input:focus {
+    color: #000000;
+    border-radius: 8px;
+    outline: none;
+}
+
+#main {
+    overflow: auto;
+}
+
+#arr {
+    text-align: center;
+}
+
+#arr-navigation {
+    list-style-type: none;
+    margin: auto;
+}
+
+#arr-navigation li {
+    display: inline;
+    text-align: center;
+}
+
+#arr-navigation a.btn {
+    color: #000000;
+    font-size: 0.8em;
+}
+
+#first-arr {
+    border-right: 1px solid #000000;
+}
+
+
+#second-arr {
+    border-right: 1px solid #000000;
+}
+
+
+#third-arr {
+    border-right: 1px solid #000000;
+}
+
+#main-container {
+    margin-bottom: 20px;
+}
+
+div.gallery {
+    margin-bottom: 10px;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+
+footer {
+    border-top: 1px solid #FDF6F0;
+    padding-top: 20px;
+}
+
+#copyright {
+    font-style: italic;
+    color: #FDF6F0;
+    height: 24px;
+}
+
+#logo {
+    text-align: right;
+}
+
+.fa-facebook-official:hover {
+    color: #3B5998;
+}
+
+.fa-twitter:hover {
+    color: #FF0000;
+}
