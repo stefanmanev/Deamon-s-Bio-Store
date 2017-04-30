@@ -8,15 +8,15 @@ System.config({
 
    // App files
    'main': 'scripts/main.js',
-   //'requester': 'scripts/requester.js',
+   'requester': 'scripts/requester.js',
    //'data': 'scripts/data.js',
-   //'homeController': 'js/controllers/home.js',
+   'loginController': 'scripts/controllers/loginController.js',
    //'myCookieController': 'js/controllers/myCookie.js',
    //'userController': 'js/controllers/user.js',
-   //'templates': 'js/templates.js',
+   'templates': 'scripts/templates.js',
 
    // templates
-   // 'homeTemplate': 'templates/home.handlebars',
+   'loginTemplate': 'templates/login.handlebars',
 
    // Library files
     'jquery': 'node_modules/jquery/dist/jquery.min.js',
