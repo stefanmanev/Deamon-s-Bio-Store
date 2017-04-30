@@ -9,7 +9,7 @@ System.config({
    // App files
    'main': 'scripts/main.js',
    'requester': 'scripts/requester.js',
-   //'data': 'scripts/data.js',
+   'data': 'scripts/data.js',
    'loginController': 'scripts/controllers/loginController.js',
    'homeController': 'scripts/controllers/homeController.js',
    'registerController': 'scripts/controllers/registerController.js',

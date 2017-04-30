@@ -5,6 +5,7 @@ import Bootstrap from 'bootstrap';
 import { getTemplate as getLogin } from 'loginController';
 import { getTemplate as getHome } from 'homeController';
 import { getTemplate as getRegister } from 'registerController';
+import { data } from 'data';
 
 var sammyApp = Sammy('#wrapper', function(){
     this.get('#/', function () {
@@ -24,7 +25,7 @@ var sammyApp = Sammy('#wrapper', function(){
     });
 
     this.get('#/user', function() {
-        console.log('user');
+        data.getProducts().then((data) => console.log(data));
     });
 
     $(function () {
