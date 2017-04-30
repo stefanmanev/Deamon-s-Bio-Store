@@ -6,6 +6,6 @@ export function getTemplate(params) {
 
   Promise.resolve(loadTemplate('home'))
   .then((template) => {
-    $main.html(template());
+    $main.html(template);
   });
 }
