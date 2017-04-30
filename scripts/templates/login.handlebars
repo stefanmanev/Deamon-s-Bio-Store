@@ -1,3 +1,12 @@
-<input id="input-username" />
-<input id="input-password" type="password" />
-<a class="btn btn-success" href="#/login">Log in</a>
+<form action="#/account/login" method="POST">
+    <label for="email">Email</label>
+    <br/>
+    <input name="email" type="email" id="email">
+    <br/>
+    <label for="password">Password</label>
+    <br/>
+    <input name="password" type="password" id="password">
+    <br/><br/>
+    <button type="submit" class="btn btn-success">Login</button>
+    <br/><br/>
+</form>

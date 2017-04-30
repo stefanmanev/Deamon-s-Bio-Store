@@ -1,3 +1,20 @@
-<input id="input-username" />
-<input id="input-password" type="password" />
-<a class="btn btn-success" href="#/login">Register</a>
+<form action="#/account/register" method="POST">
+    <label for="username">Username</label>
+    <br/>
+    <input name="username" type="text" id="username">
+    <br/>
+    <label for="email">Email</label>
+    <br/>
+    <input name="email" type="email" id="email">
+    <br/>
+    <label for="password">Password</label>
+    <br/>
+    <input name="password" type="password" id="password">
+    <br/>
+    <label for="password-confirm">Confirm Password</label>
+    <br/>
+    <input name="password-confirm" type="password" id="password-confirm">
+    <br/><br/>
+    <button type="submit" class="btn btn-success">Register</button>
+    <br/><br/>
+</form>

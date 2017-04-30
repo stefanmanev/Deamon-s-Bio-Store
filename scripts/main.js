@@ -12,17 +12,11 @@ var sammyApp = Sammy('#wrapper', function(){
         this.redirect('#/home');
     });
 
-    this.get('#/home', function() {
-        return getHome();
-    });
+    this.get('#/home', getHome);
 
-    this.get('#/register', function() {
-        return getRegister();
-    });
+    this.get('#/register', getRegister);
 
-    this.get('#/login', function() {
-        return getLogin();
-    });
+    this.get('#/login', getLogin);
 
     this.get('#/user', function() {
         data.getProducts().then((data) => console.log(data));
