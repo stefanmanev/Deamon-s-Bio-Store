@@ -13,6 +13,7 @@ System.config({
    'loginController': 'scripts/controllers/loginController.js',
    'homeController': 'scripts/controllers/homeController.js',
    'registerController': 'scripts/controllers/registerController.js',
+   'aboutController': 'scripts/controllers/aboutController.js',
    //'userController': 'js/controllers/user.js',
    // templates
    'templates': 'scripts/templates.js',
