@@ -1,4 +1,4 @@
-body, div, nav, main, ul, li, form, input {
+body, div, nav, main, ul, li, form, input, h1, h2, h3 {
     margin: 0;
     padding: 0;
 }
@@ -80,16 +80,27 @@ nav {
     color: #634242;
 }
 
-input
+#navigation a.btn:active {
+    color: #634242;
+    background-color: #B49B79;
+}
+
+#navigation a.btn:focus {
+    outline: none;
+}
+
+#search-form
 {
     color: #909090;
     border-radius: 8px;
 }
 
-input:focus {
+#search-form:focus {
     color: #000000;
     border-radius: 8px;
     outline: none;
+    box-shadow: none;
+    border: none;
 }
 
 #main {
@@ -142,6 +153,9 @@ div.gallery {
     height: auto;
 }
 
+.img-title {
+    border: 1px solid black;
+}
 
 footer {
     border-top: 1px solid #FDF6F0;

@@ -24,8 +24,8 @@
                         <li><a href="#" class="btn col-lg-2">Product Type 2</a></li>
                         <li><a href="#" class="btn col-lg-2">Product Type 3</a></li>
                         <li><a href="#" class="btn col-lg-2">About</a></li>
-                        <form id="search" action="#" method="post">
-                            <input type="text" name="Search" value="Search" />
+                        <form class="col-lg-2" id="search" action="#" method="post">
+                            <input id="search-form" class="form-control" type="text" name="Search" placeholder="Search" />
                         </form>
                     </ul>
                 </nav>
@@ -43,27 +43,35 @@
                 <div id="main-container" class="col-lg-12">
                     <div class="gallery col-lg-3">
                         <img class="main-image img-responsive" src="https://www.w3schools.com/bootstrap/img_chania.jpg" />
+                        <div class="img-title"><h3>First Product</h3></div>
                     </div>
                     <div class="gallery col-lg-3">
                         <img class="main-image img-responsive" src="https://www.w3schools.com/bootstrap/img_chania.jpg" />
+                        <div class="img-title"><h3>Second Product</h3></div>
                     </div>
                     <div class="gallery col-lg-3">
                         <img class="main-image img-responsive" src="https://www.w3schools.com/bootstrap/img_chania.jpg" />
+                        <div class="img-title"><h3>Third Product</h3></div>
                     </div>
                     <div class="gallery col-lg-3">
                         <img class="main-image img-responsive" src="https://www.w3schools.com/bootstrap/img_chania.jpg" />
+                        <div class="img-title"><h3>Fourth Product</h3></div>
                     </div>
                     <div class="gallery col-lg-3">
                         <img class="main-image img-responsive" src="https://www.w3schools.com/bootstrap/img_chania.jpg" />
+                        <div class="img-title"><h3>Fifth Product</h3></div>
                     </div>
                     <div class="gallery col-lg-3">
                         <img class="main-image img-responsive" src="https://www.w3schools.com/bootstrap/img_chania.jpg" />
+                        <div class="img-title"><h3>Sixth Product</h3></div>
                     </div>
                     <div class="gallery col-lg-3">
                         <img class="main-image img-responsive" src="https://www.w3schools.com/bootstrap/img_chania.jpg" />
+                        <div class="img-title"><h3>Seventh Product</h3></div>
                     </div>
                     <div class="gallery col-lg-3">
                         <img class="main-image img-responsive" src="https://www.w3schools.com/bootstrap/img_chania.jpg" />
+                        <div class="img-title"><h3>Eight Product</h3></div>
                     </div>
                 </div>
             </main>
@@ -81,6 +89,25 @@
                 </div>
             </footer>
         </div>
+        <script>
+            let search = document.getElementById("search-form");
+            let gallery = document.getElementsByClassName("gallery");
+            let titles = document.getElementsByClassName("img-title");
+
+            search.addEventListener("keyup", function(ev) {
+                let text = ev.target.value;
+                    for (let i = 0; i < titles.length; i += 1) {
+                        let header = titles[i].textContent;
+                        console.log(titles[i]);
+                        if(header.toLowerCase().indexOf(text.toLowerCase()) >= 0) {
+                            gallery[i].style.display = "block";
+                        }
+                        else {
+                            gallery[i].style.display = "none";
+                        }
+                    }
+            });
+        </script>
         <script src="node_modules/systemjs/dist/system.js"></script>
         <script src="scripts/system-config.js"></script>
         <script src="node_modules/handlebars/dist/handlebars.js"></script>
