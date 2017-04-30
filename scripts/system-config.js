@@ -13,10 +13,9 @@ System.config({
    'loginController': 'scripts/controllers/loginController.js',
    //'myCookieController': 'js/controllers/myCookie.js',
    //'userController': 'js/controllers/user.js',
+   // templates
    'templates': 'scripts/templates.js',
 
-   // templates
-   'loginTemplate': 'templates/login.handlebars',
 
    // Library files
     'jquery': 'node_modules/jquery/dist/jquery.min.js',

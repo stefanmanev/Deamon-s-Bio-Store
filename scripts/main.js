@@ -2,7 +2,7 @@ import 'jquery';
 import Sammy from 'sammy';
 import 'handlebars';
 import Bootstrap from 'bootstrap';
-import { get } from 'loginController';
+import { getTemplate } from 'loginController';
 
 var sammyApp = Sammy('#wrapper', function(){
     this.get('#/', function () {
@@ -18,8 +18,7 @@ var sammyApp = Sammy('#wrapper', function(){
     });
 
     this.get('#/login', function() {
-        console.log(get());
-        get();
+        return getTemplate();
     });
 
     this.get('#/user', function() {

@@ -7,7 +7,7 @@ export function load(templateName) {
     return Promise.resolve(cacheObj[templateName]);
   }
 
-  return requester.get(`templates/${templateName}.handlebars`)
+  return requester.get(`scripts/templates/${templateName}.handlebars`)
     .then(template => {
       const compiledTemplate = Handlebars.compile(template);
       cacheObj[templateName] = compiledTemplate;

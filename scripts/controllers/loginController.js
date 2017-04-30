@@ -1,8 +1,11 @@
 import { load as loadTemplate } from 'templates';
 
-const $main = $('#main');
+let $main = $('#main');
 
-export function get() {
-    promise.resolve(loadTemplate('login'))
-        .then((template) => $main.html(template));
+export function getTemplate(params) {
+
+  Promise.resolve(loadTemplate('login'))
+  .then((template) => {
+    $main.html(template());
+  });
 }
