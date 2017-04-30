@@ -1,115 +1,146 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Bio Product Store</title>
-        <meta charset="UTF-8">
-        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
-        <link rel="stylesheet" href="./stylesheets/styles.css" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-    </head>
 
-    <body>
-        <div id="wrapper" class="container">
-            <header>
-                <ul id="register">
-                        <li id="left-button" ><a href="#/register" class="btn">Register</a></li>
-                        <li id="right-button"><a href="#/login" class="btn">Login</a></li>
+<head>
+    <title>Bio Product Store</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="./stylesheets/styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+
+<body>
+    <div id="wrapper" class="container">
+        <header>
+            <ul id="register">
+                <li id="left-button"><a href="#/register" class="btn">Register</a></li>
+                <li id="right-button"><a href="#/login" class="btn">Login</a></li>
+            </ul>
+
+            <h1 id="header">Team Demon's Bio Store</h1>
+            <nav>
+                <ul id="navigation">
+                    <li><a href="#/home" class="btn col-lg-2">Home</a></li>
+                    <li><a href="#" class="btn col-lg-2">Product Type 1</a></li>
+                    <li><a href="#" class="btn col-lg-2">Product Type 2</a></li>
+                    <li><a href="#" class="btn col-lg-2">Product Type 3</a></li>
+                    <li><a href="#/about" class="btn col-lg-2">About</a></li>
+                    <form class="col-lg-2" id="search" action="#" method="post">
+                        <input id="search-form" class="form-control" type="text" name="Search" placeholder="Search" />
+                    </form>
                 </ul>
+            </nav>
+        </header>
 
-                <h1 id="header">Team Demon's Bio Store</h1>
-                <nav>
-                    <ul id="navigation">
-                        <li><a href="#/home" class="btn col-lg-2">Home</a></li>
-                        <li><a href="#" class="btn col-lg-2">Product Type 1</a></li>
-                        <li><a href="#" class="btn col-lg-2">Product Type 2</a></li>
-                        <li><a href="#" class="btn col-lg-2">Product Type 3</a></li>
-                        <li><a href="#/about" class="btn col-lg-2">About</a></li>
-                        <form class="col-lg-2" id="search" action="#" method="post">
-                            <input id="search-form" class="form-control" type="text" name="Search" placeholder="Search" />
-                        </form>
-                    </ul>
-                </nav>
-            </header>
-
-            <main id="main">
-                <div id="arr">
-                    <ul id="arr-navigation">
-                        <li id="first-arr"><a href="#" class="btn">Arrange products by price</a></li>
-                        <li id="second-arr"><a href="#" class="btn">Arrange products by price (descending)</a></li>
-                        <li id="third-arr"><a href="#" class="btn">Arrange products by name</a></li>
-                        <li><a href="#" class="btn">Arrange products by name(descending)</a></li>
-                    </ul>
-                </div>
-                <div id="main-container" class="col-lg-12">
-                    <div class="gallery col-lg-3">
-                        <img class="main-image img-responsive" src="https://www.w3schools.com/bootstrap/img_chania.jpg" />
-                        <div class="img-title"><h3>First Product</h3></div>
-                    </div>
-                    <div class="gallery col-lg-3">
-                        <img class="main-image img-responsive" src="https://www.w3schools.com/bootstrap/img_chania.jpg" />
-                        <div class="img-title"><h3>Second Product</h3></div>
-                    </div>
-                    <div class="gallery col-lg-3">
-                        <img class="main-image img-responsive" src="https://www.w3schools.com/bootstrap/img_chania.jpg" />
-                        <div class="img-title"><h3>Third Product</h3></div>
-                    </div>
-                    <div class="gallery col-lg-3">
-                        <img class="main-image img-responsive" src="https://www.w3schools.com/bootstrap/img_chania.jpg" />
-                        <div class="img-title"><h3>Fourth Product</h3></div>
-                    </div>
-                    <div class="gallery col-lg-3">
-                        <img class="main-image img-responsive" src="https://www.w3schools.com/bootstrap/img_chania.jpg" />
-                        <div class="img-title"><h3>Fifth Product</h3></div>
-                    </div>
-                    <div class="gallery col-lg-3">
-                        <img class="main-image img-responsive" src="https://www.w3schools.com/bootstrap/img_chania.jpg" />
-                        <div class="img-title"><h3>Sixth Product</h3></div>
-                    </div>
-                    <div class="gallery col-lg-3">
-                        <img class="main-image img-responsive" src="https://www.w3schools.com/bootstrap/img_chania.jpg" />
-                        <div class="img-title"><h3>Seventh Product</h3></div>
-                    </div>
-                    <div class="gallery col-lg-3">
-                        <img class="main-image img-responsive" src="https://www.w3schools.com/bootstrap/img_chania.jpg" />
-                        <div class="img-title"><h3>Eight Product</h3></div>
+        <main id="main">
+            <div id="arr">
+                <ul id="arr-navigation">
+                    <li id="first-arr"><a href="#" class="btn">Arrange products by price</a></li>
+                    <li id="second-arr"><a href="#" class="btn">Arrange products by price (descending)</a></li>
+                    <li id="third-arr"><a href="#" class="btn">Arrange products by name</a></li>
+                    <li><a href="#" class="btn">Arrange products by name(descending)</a></li>
+                </ul>
+            </div>
+            <div id="main-container" class="col-lg-12">
+                <div class="gallery col-lg-3">
+                    <img class="main-image img-responsive" src="https://www.w3schools.com/bootstrap/img_chania.jpg" />
+                    <div class="img-title">
+                        <h3>First Product</h3>
                     </div>
                 </div>
-            </main>
-
-            <footer>
-                <div class="col-lg-6">
-                    <p id="copyright" property="dc:rights">&copy;
-                        <span property="dc:dateCopyrighted">2017</span>
-                        <span property="dc:publisher">Telerik Academy's Team Demon</span>
-                    </p>
+                <div class="gallery col-lg-3">
+                    <img class="main-image img-responsive" src="https://www.w3schools.com/bootstrap/img_chania.jpg" />
+                    <div class="img-title">
+                        <h3>Second Product</h3>
+                    </div>
                 </div>
-                <div id="logo" class="col-lg-6">
-                    <i class="fa fa-facebook-official" style="font-size:24px"></i>
-                    <i class="fa fa-twitter" style="font-size:24px"></i>
+                <div class="gallery col-lg-3">
+                    <img class="main-image img-responsive" src="https://www.w3schools.com/bootstrap/img_chania.jpg" />
+                    <div class="img-title">
+                        <h3>Third Product</h3>
+                    </div>
                 </div>
-            </footer>
-        </div>
-        <script>
-            let search = document.getElementById("search-form");
-            let gallery = document.getElementsByClassName("gallery");
-            let titles = document.getElementsByClassName("img-title");
+                <div class="gallery col-lg-3">
+                    <img class="main-image img-responsive" src="https://www.w3schools.com/bootstrap/img_chania.jpg" />
+                    <div class="img-title">
+                        <h3>Fourth Product</h3>
+                    </div>
+                </div>
+                <div class="gallery col-lg-3">
+                    <img class="main-image img-responsive" src="https://www.w3schools.com/bootstrap/img_chania.jpg" />
+                    <div class="img-title">
+                        <h3>Fifth Product</h3>
+                    </div>
+                </div>
+                <div class="gallery col-lg-3">
+                    <img class="main-image img-responsive" src="https://www.w3schools.com/bootstrap/img_chania.jpg" />
+                    <div class="img-title">
+                        <h3>Sixth Product</h3>
+                    </div>
+                </div>
+                <div class="gallery col-lg-3">
+                    <img class="main-image img-responsive" src="https://www.w3schools.com/bootstrap/img_chania.jpg" />
+                    <div class="img-title">
+                        <h3>Seventh Product</h3>
+                    </div>
+                </div>
+                <div class="gallery col-lg-3">
+                    <img class="main-image img-responsive" src="https://www.w3schools.com/bootstrap/img_chania.jpg" />
+                    <div class="img-title">
+                        <h3>Eight Product</h3>
+                    </div>
+                </div>
+            </div>
+        </main>
 
-            search.addEventListener("keyup", function(ev) {
-                let text = ev.target.value;
-                    for (let i = 0; i < titles.length; i += 1) {
-                        let header = titles[i].textContent;
-                        console.log(titles[i]);
-                        if(header.toLowerCase().indexOf(text.toLowerCase()) >= 0) {
-                            gallery[i].style.display = "block";
-                        }
-                        else {
-                            gallery[i].style.display = "none";
-                        }
-                    }
-            });
-        </script>
-        <script src="node_modules/systemjs/dist/system.js"></script>
-        <script src="scripts/system-config.js"></script>
-        <script src="node_modules/handlebars/dist/handlebars.js"></script>
-    </body>
+        <footer>
+            <div class="col-lg-6">
+                <p id="copyright" property="dc:rights">&copy;
+                    <span property="dc:dateCopyrighted">2017</span>
+                    <span property="dc:publisher">Telerik Academy's Team Demon</span>
+                </p>
+            </div>
+            <div id="logo" class="col-lg-6">
+                <i class="fa fa-facebook-official" style="font-size:24px"></i>
+                <i class="fa fa-twitter" style="font-size:24px"></i>
+            </div>
+        </footer>
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/3.9.0/firebase.js"></script>
+    <script>
+        // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyDN7MURwETAgvb6mXP30qoplJZr5255lCE",
+            authDomain: "biostore-c87aa.firebaseapp.com",
+            databaseURL: "https://biostore-c87aa.firebaseio.com",
+            projectId: "biostore-c87aa",
+            storageBucket: "biostore-c87aa.appspot.com",
+            messagingSenderId: "1087977620216"
+        };
+        firebase.initializeApp(config);
+    </script>
+    <script>
+        let search = document.getElementById("search-form");
+        let gallery = document.getElementsByClassName("gallery");
+        let titles = document.getElementsByClassName("img-title");
+
+        search.addEventListener("keyup", function (ev) {
+            let text = ev.target.value;
+            for (let i = 0; i < titles.length; i += 1) {
+                let header = titles[i].textContent;
+                console.log(titles[i]);
+                if (header.toLowerCase().indexOf(text.toLowerCase()) >= 0) {
+                    gallery[i].style.display = "block";
+                }
+                else {
+                    gallery[i].style.display = "none";
+                }
+            }
+        });
+    </script>
+    <script src="node_modules/systemjs/dist/system.js"></script>
+    <script src="scripts/system-config.js"></script>
+    <script src="node_modules/handlebars/dist/handlebars.js"></script>
+</body>
+
 </html>
