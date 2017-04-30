@@ -11,7 +11,7 @@ System.config({
    'requester': 'scripts/requester.js',
    //'data': 'scripts/data.js',
    'loginController': 'scripts/controllers/loginController.js',
-   //'myCookieController': 'js/controllers/myCookie.js',
+   'homeController': 'scripts/controllers/homeController.js',
    //'userController': 'js/controllers/user.js',
    // templates
    'templates': 'scripts/templates.js',
