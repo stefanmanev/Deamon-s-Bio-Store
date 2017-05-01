@@ -1,10 +1,10 @@
-import { load as loadTemplate } from 'templates';
+import { templates } from 'templates';
 
 let $main = $('#main');
 
 export function getTemplate(params) {
 
-  Promise.resolve(loadTemplate('login'))
+  Promise.resolve(templates.getTemplate('login'))
   .then((template) => {
     $main.html(template);
   });

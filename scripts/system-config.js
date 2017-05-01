@@ -14,15 +14,16 @@ System.config({
    'homeController': 'scripts/controllers/homeController.js',
    'registerController': 'scripts/controllers/registerController.js',
    'aboutController': 'scripts/controllers/aboutController.js',
-   //'userController': 'js/controllers/user.js',
+    'constants': 'scripts/helpers/constants.js',
+    
    
    // templates
-   'templates': 'scripts/templates.js',
+   'templates': 'scripts/helpers/templates.js',
 
 
    // Library files
     'jquery': 'node_modules/jquery/dist/jquery.min.js',
-    'handlebars': 'node_modules/handlebars/dist/handlebars.amd.js',
+    'handlebars': 'node_modules/handlebars/dist/handlebars.js',
     'toastr': 'node_modules/toastr/build/toastr.min.js',
     'sammy': 'node_modules/sammy/lib/sammy.js',
     'bootstrap': 'node_modules/bootstrap/dist/js/bootstrap.min.js'

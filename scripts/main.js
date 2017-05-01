@@ -1,11 +1,13 @@
-import 'jquery';
+import $ from 'jquery';
+import toastr from 'toastr';
 import Sammy from 'sammy';
-import 'handlebars';
+import Handlebars  from 'handlebars';
 import Bootstrap from 'bootstrap';
 import { getTemplate as getLogin } from 'loginController';
 import { getTemplate as getHome } from 'homeController';
 import { getTemplate as getRegister } from 'registerController';
 import { data } from 'data';
+
 
 var sammyApp = Sammy('#wrapper', function(){
     this.get('#/', function () {
@@ -19,7 +21,7 @@ var sammyApp = Sammy('#wrapper', function(){
     this.get('#/login', getLogin);
 
     this.get('#/user', function() {
-        data.getProducts().then((data) => console.log(data));
+        toastr.success('dsdasdasadas');
     });
 
     $(function () {
