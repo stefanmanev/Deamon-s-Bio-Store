@@ -13,9 +13,9 @@ class Requester {
         return promise;
     }
 
-    putJSON(url, body, options = {}) {
+    putJSON(url, body, options) {
         var promise = new Promise(function (resolve, reject) {
-            var headers = options.headers || {};
+            var headers = options || {};
             $.ajax({
                 url,
                 headers,
@@ -34,9 +34,9 @@ class Requester {
         return promise;
     }
 
-    postJSON(url, body, options = {}) {
+    postJSON(url, body, options) {
         var promise = new Promise(function (resolve, reject) {
-            var headers = options.headers || {};
+            var headers = options || {};
             $.ajax({
                 url,
                 headers,
