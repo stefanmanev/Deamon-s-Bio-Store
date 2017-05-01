@@ -28,6 +28,7 @@ body {
 
 #register a.btn {
     color: #000000;
+    font-size: 0.88em;
 }
 
 #left-button {
@@ -179,6 +180,7 @@ footer {
 .fa-twitter:hover {
     color: #FF0000;
 }
+
 .hidden {
     display: none;
 }
@@ -189,4 +191,37 @@ footer {
 .form-register {
     width: 250px;
     margin: 5px;
+}
+
+@media (max-width: 1000px) {
+    #register a.btn {
+        font-size: 0.76em;
+    }
+
+    #navigation a.btn {
+        font-size: 1em;
+    }
+
+    #arr-navigation a.btn {
+        font-size: 0.68em;
+    }
+
+}
+
+@media (max-width: 767px) {
+    #navigation a.btn {
+        font-size: 1em;
+        margin-top: 12px;
+        border: 1px solid black;
+        border-radius: 8px;
+    }
+
+    #navigation {
+        padding: 12px;
+    }
+
+    #search {
+        margin-top: 12px;
+        padding: 0px;
+    }
 }
