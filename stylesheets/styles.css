@@ -179,3 +179,14 @@ footer {
 .fa-twitter:hover {
     color: #FF0000;
 }
+.hidden {
+    display: none;
+}
+.form-login {
+    width: 250px;
+    margin: 5px;
+}
+.form-register {
+    width: 250px;
+    margin: 5px;
+}
