@@ -74,7 +74,7 @@ nav {
     color: #FDF6F0;
     font-weight: 600;
     font-size: 1.2em;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 #navigation a.btn:hover {
@@ -127,17 +127,7 @@ nav {
     font-size: 0.8em;
 }
 
-#first-arr {
-    border-right: 1px solid #000000;
-}
-
-
-#second-arr {
-    border-right: 1px solid #000000;
-}
-
-
-#third-arr {
+#first-arr, #second-arr, #third-arr {
     border-right: 1px solid #000000;
 }
 
@@ -161,6 +151,15 @@ div.gallery {
 footer {
     border-top: 1px solid #FDF6F0;
     padding-top: 20px;
+}
+
+footer.row{
+    overflow: hidden; 
+}
+
+footer div.col-xs-6 {
+    margin-bottom: -99999px;
+    padding-bottom: 99999px;
 }
 
 #copyright {
@@ -209,8 +208,11 @@ footer {
 }
 
 @media (max-width: 767px) {
+    #header {
+        font-size: 3em;
+    }
+    
     #navigation a.btn {
-        font-size: 1em;
         margin-top: 12px;
         border: 1px solid black;
         border-radius: 8px;
@@ -223,5 +225,51 @@ footer {
     #search {
         margin-top: 12px;
         padding: 0px;
+    }
+}
+
+@media(max-width: 707px) {        
+    #arr-navigation li {
+        display: block;
+    }
+
+    #first-arr, #second-arr, #third-arr {
+        border-right: none;
+    }
+
+    #arr-navigation {
+        position: relative;
+        display: inline-block;
+    }
+
+    
+    #copyright {
+        font-size: 0.88em;
+    }
+}
+
+@media (max-width: 540px) {
+    #header {
+        font-size: 2em;
+    }
+
+    #register a.btn {
+        font-size: 1em;
+        display: block;
+        border: 1px solid #000000;
+    }
+
+    #left-button {
+        border-right: none;
+    }
+
+    #copyright {
+        font-size: 0.76em;
+    }
+}
+
+@media (max-width: 460px) { 
+    #copyright {
+        font-size: 0.64em;
     }
 }
