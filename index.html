@@ -8,6 +8,21 @@
     <link rel="stylesheet" href="./stylesheets/styles.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <link rel="stylesheet" href="node_modules/toastr/build/toastr.min.css"/>
+    <script src="https://www.gstatic.com/firebasejs/3.9.0/firebase.js"></script>
+    <script>
+        (function () {
+            const config = {
+                apiKey: "AIzaSyD-xecmt07UOpoiTjPQgFz3H9FWkZ33utw",
+                authDomain: "biostore-dc055.firebaseapp.com",
+                databaseURL: "https://biostore-dc055.firebaseio.com",
+                projectId: "biostore-dc055",
+                storageBucket: "biostore-dc055.appspot.com",
+                messagingSenderId: "216615352376"
+            };
+            firebase.initializeApp(config);
+        }());
+    </script>
+
 </head>
 
 <body>
@@ -16,6 +31,7 @@
             <ul id="register">
                 <li id="left-button"><a href="#/register" class="btn">Register</a></li>
                 <li id="right-button"><a href="#/login" class="btn">Login</a></li>
+                <li id="logout-button" class="hidden"><a id="logout" href="#/home" class="btn ">Logout</a></li>
             </ul>
 
             <h1 id="header">Team Demon's Bio Store</h1>
@@ -92,8 +108,11 @@
                     </div>
                 </div>
             </div>
-        </main>
+            <h1>write data on current user DB</h1>
 
+        </main>
+        <input type="text" id="testInput">
+        <button id="testButton">click</button>
         <footer>
             <div class="col-md-6">
                 <p id="copyright" property="dc:rights">&copy;
@@ -107,20 +126,7 @@
             </div>
         </footer>
     </div>
-    <script src="https://www.gstatic.com/firebasejs/3.9.0/firebase.js"></script>
-    <script>
-        // Initialize Firebase
-        var config = {
-            apiKey: "AIzaSyD-xecmt07UOpoiTjPQgFz3H9FWkZ33utw",
-            authDomain: "biostore-dc055.firebaseapp.com",
-            databaseURL: "https://biostore-dc055.firebaseio.com",
-            projectId: "biostore-dc055",
-            storageBucket: "biostore-dc055.appspot.com",
-            messagingSenderId: "216615352376"
-        };
-        firebase.initializeApp(config);
 
-    </script>
     <script>
         let search = document.getElementById("search-form");
         let gallery = document.getElementsByClassName("gallery");
@@ -143,7 +149,7 @@
     <script src="node_modules/systemjs/dist/system.js"></script>
     <script src="scripts/system-config.js"></script>
     <script src="node_modules/handlebars/dist/handlebars.js"></script>
-   
+
     
 </body>
 

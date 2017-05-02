@@ -9,12 +9,10 @@ import { getTemplate as getRegister } from 'registerController';
 import { getTemplate as getAbout } from 'aboutController';
 import { data } from 'data';
 
-
-var sammyApp = Sammy('#wrapper', function(){
+var sammyApp = Sammy(function(){
     this.get('#/', function () {
         this.redirect('#/home');
     });
-
     this.get('#/home', getHome);
 
     this.get('#/register', getRegister);
@@ -26,8 +24,55 @@ var sammyApp = Sammy('#wrapper', function(){
     this.get('#/user', function() {
         toastr.success('dsdasdasadas');
     });
-
     $(function () {
         sammyApp.run('#/');
     });
 });
+
+
+
+let value = $('#testInput').val();
+let button = $('#testButton').on('click',() => {
+    let object = {
+        username: 'shturkel',
+        comment: 'arebe',
+        products: {
+            vafla: 'chudo',
+            chips: 'nqkyv'
+        }
+    };
+    data.updateUserData(object);
+    data.readUserDataOnce()
+        .then((e) => {console.log(e.val().username)} );
+
+    let kkk = {
+        products: {
+            vafli:{
+                name: 'republika',
+                cena:123
+            },
+            chips:'nqkvi',
+            neshtosi:'nqkvi'
+        }
+
+    };
+    firebase.database().ref('users/producst/').set(kkk);
+});
+
+    let kkk = {
+        products: {
+            vafli:{
+                name: 'republika',
+                cena:123
+            },
+            vafli:'nqkvi',
+            vafli:'nqkvi'
+        }
+    };
+    firebase.database().ref().set(kkk);
+
+
+
+export function sammy() {
+    return sammyApp;
+}
