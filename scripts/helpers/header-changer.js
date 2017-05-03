@@ -1,17 +1,28 @@
 const header = {
     logged: () => {
-        $('#headerSignup, #headerLogin').hide();
-        $('#headerLogout, #headerUser').fadeIn(600);
+        $('#logout-button').removeClass('hidden');
+        $('#right-button').hide();
+        $('#left-button').hide();
     },
     loggedOut: () => {
-        $('#headerLogout, #headerUser').hide();
-        $('#headerSignup, #headerLogin').fadeIn(600);
+        $('#logout-button').addClass('hidden');
+        $('#right-button').show();
+        $('#left-button').show();
     },
     setUserName: () => {
-        dataBase.readUserDataOnce().then((data) => {  //getting the username from the database
-                const userdata = data.val();
-                $('#usernameSpan').text(` ${userdata.username}`).fadeIn('slow');
-            }
-        );
+        data.readUserDataOnce().then((data) => { //getting the username from the database
+            const userdata = data.val();
+            $('.username').text(` Hello ${userdata.username}`).fadeIn('slow');
+        });
+    },
+    setUserNameOut: () => {
+        data.readUserDataOnce().then((data) => { //getting the username from the database
+            const userdata = data.val();
+            $('.username').text(` Hello ${userdata.username}`).fadeOut('slow');
+        });
     }
+};
+
+export {
+    header
 };

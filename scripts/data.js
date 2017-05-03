@@ -1,5 +1,6 @@
 import { requester } from 'requester';
 import $ from 'jquery';
+import { header } from 'header';
 
 class Data {
     createUser(email,password){
@@ -13,17 +14,12 @@ class Data {
     checkIfLogged(){
         firebase.auth().onAuthStateChanged((user) => {
             if(user) {
-                $('#logout-button').removeClass('hidden');
-                $('#right-button').hide();
-                $('#left-button').hide();
+                header.logged(); //changing header if logged
+                
                 //header.setUserName(); //setting the username in the header
-                //header.logged(); //changing header if logged
                 console.log('logged');
             } else {
-                //header.loggedOut(); //changing header if logged out
-                $('#logout-button').addClass('hidden');
-                $('#right-button').show();
-                $('#left-button').show();
+                header.loggedOut(); //changing header if logged out
                 console.log('not logged');
             }
         });
