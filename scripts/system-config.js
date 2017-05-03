@@ -14,7 +14,6 @@ System.config({
    'homeController': 'scripts/controllers/homeController.js',
    'registerController': 'scripts/controllers/registerController.js',
    'aboutController': 'scripts/controllers/aboutController.js',
-    'constants': 'scripts/helpers/constants.js',
     'firebase': 'scripts/firebase-config.js',
 
    

@@ -56,7 +56,7 @@ let button = $('#testButton').on('click',() => {
         }
 
     };
-    firebase.database().ref('users/producst/').set(kkk);
+    firebase.database().ref('users/product/').set(kkk);
 });
 
     let kkk = {
