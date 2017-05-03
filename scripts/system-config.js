@@ -15,7 +15,6 @@ System.config({
    'registerController': 'scripts/controllers/registerController.js',
    'aboutController': 'scripts/controllers/aboutController.js',
     'firebase': 'scripts/firebase-config.js',
-
    
    // templates
    'templates': 'scripts/helpers/templates.js',

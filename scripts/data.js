@@ -7,7 +7,6 @@ class Data {
     }
     
     loginUser(email,password){
-        console.log('chep');
         return firebase.auth().signInWithEmailAndPassword(email,password);
     }
     
@@ -49,6 +48,14 @@ class Data {
     
     logOut(){
         return firebase.auth().signOut();
+    }
+
+    getData() {
+        return $.get();
+    }
+
+    updateData (data){
+        return firebase.database().ref('products/vafli/3').update(data);
     }
 }
 
