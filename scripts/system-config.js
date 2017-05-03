@@ -16,6 +16,9 @@ System.config({
    'aboutController': 'scripts/controllers/aboutController.js',
     'firebase': 'scripts/firebase-config.js',
    'header': 'scripts/helpers/header-changer.js',
+   'showSlides': 'scripts/slides.js',
+   'biofoodController': 'scripts/controllers/biofoodController.js',
+   'cosmeticsController': 'scripts/controllers/cosmeticsController.js',
    // templates
    'templates': 'scripts/helpers/templates.js',
 

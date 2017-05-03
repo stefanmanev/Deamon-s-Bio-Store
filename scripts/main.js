@@ -7,6 +7,8 @@ import { getTemplate as getLogin } from 'loginController';
 import { getTemplate as getHome } from 'homeController';
 import { getTemplate as getRegister } from 'registerController';
 import { getTemplate as getAbout } from 'aboutController';
+import { getTemplate as getBiofood } from 'biofoodController';
+import { getTemplate as getCosmetics } from 'cosmeticsController';
 import { data } from 'data';
 
 var sammyApp = Sammy(function(){
@@ -21,9 +23,9 @@ var sammyApp = Sammy(function(){
 
     this.get('#/about', getAbout);
 
-    this.get('#/user', function() {
-        toastr.success('dsdasdasadas');
-    });
+    this.get('#/biofoods', getBiofood);
+
+    this.get('#/cosmetics', getCosmetics);
     $(function () {
         sammyApp.run('#/');
     });
@@ -45,23 +47,87 @@ let button = $('#testButton').on('click',() => {
     data.readUserDataOnce()
         .then((e) => {console.log(e.val())} );
 
-    let kkk = {
-        
-            vafli:[{
-                name: 'harmonica',
-                cena:123
+    let products = [{
+                img: 'http://biomag.bg/media/catalog/product/cache/1/image/540x599/9df78eab33525d08d6e5fb8d27136e95/o/v/oveseni_yadki.jpg',
+                product: 'овесени ядки',
+                description: 'идеални за вкусна и здравословна закуска',
+                cena: '12лв'
             },
             {
-                name: 'republika',
-                cena:123
-            }],
-            chips:[
-                {name:'chio', 
-                cena: 12}],
+                img: 'http://biomag.bg/media/catalog/product/cache/1/image/540x599/9df78eab33525d08d6e5fb8d27136e95/o/v/oveseni_yadki.jpg',
+                product: 'овесени ядки',
+                description: 'идеални за вкусна и здравословна закуска',
+                cena: '12лв'
+            },
+            {
+                img: 'http://biomag.bg/media/catalog/product/cache/1/image/540x599/9df78eab33525d08d6e5fb8d27136e95/o/v/oveseni_yadki.jpg',
+                product: 'овесени ядки',
+                description: 'идеални за вкусна и здравословна закуска',
+                cena: '12лв'
+            },
+            {
+                img: 'http://spirala.bg/wp-content/uploads/2016/05/probiotichnavafla.jpg',
+                product: 'вафла',
+                description: 'много сладка и вкусна',
+                cena: '3лв'
+            },
+            {
+                img: 'http://spirala.bg/wp-content/uploads/2016/05/probiotichnavafla.jpg',
+                product: 'вафла',
+                description: 'много сладка и вкусна',
+                cena: '3лв'
+            },
+            {
+                img: 'http://biomag.bg/media/catalog/product/cache/1/image/540x599/9df78eab33525d08d6e5fb8d27136e95/o/v/oveseni_yadki.jpg',
+                product: 'овесени ядки',
+                description: 'идеални за вкусна и здравословна закуска',
+                cena: '12лв'
+            },
+            {
+                img: 'http://spirala.bg/wp-content/uploads/2016/05/probiotichnavafla.jpg',
+                product: 'вафла',
+                description: 'много сладка и вкусна',
+                cena: '3лв'
+            },
+            {
+                img: 'http://spirala.bg/wp-content/uploads/2016/05/probiotichnavafla.jpg',
+                product: 'вафла',
+                description: 'много сладка и вкусна',
+                cena: '3лв'
+            }];
 
+            let cosmetics = [{
+                img: 'http://ivis.bg/products_images/straight_shampoo_250ml_pboxx-pixelboxx-103098_300dpi_1772h_1772w_38891911.jpg',
+                product: 'шампоан',
+                description: 'за нормална коса',
+                cena: '12лв'
+            },
+            {
+                img: 'http://ivis.bg/products_images/straight_shampoo_250ml_pboxx-pixelboxx-103098_300dpi_1772h_1772w_38891911.jpg',
+                product: 'шампоан',
+                description: 'за нормална коса',
+                cena: '12лв'
+            },
+            {
+                img: 'http://ivis.bg/products_images/straight_shampoo_250ml_pboxx-pixelboxx-103098_300dpi_1772h_1772w_38891911.jpg',
+                product: 'шампоан',
+                description: 'за нормална коса',
+                cena: '12лв'
+            },
+            {
+                img: 'http://ivis.bg/products_images/straight_shampoo_250ml_pboxx-pixelboxx-103098_300dpi_1772h_1772w_38891911.jpg',
+                product: 'шампоан',
+                description: 'за нормална коса',
+                cena: '12лв'
+            },
+            {
+                img: 'http://ivis.bg/products_images/straight_shampoo_250ml_pboxx-pixelboxx-103098_300dpi_1772h_1772w_38891911.jpg',
+                product: 'шампоан',
+                description: 'за нормална коса',
+                cena: '12лв'
+            }];
+    firebase.database().ref('products/cosmetics').set(cosmetics);
 
-    };
-    firebase.database().ref('products/').set(kkk);
     // data.updateData({name: 'chikiriki', cena: 123});
 });
 

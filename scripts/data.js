@@ -15,8 +15,7 @@ class Data {
         firebase.auth().onAuthStateChanged((user) => {
             if(user) {
                 header.logged(); //changing header if logged
-                
-                //header.setUserName(); //setting the username in the header
+                 //header.setUserName(); //setting the username in the header
                 console.log('logged');
             } else {
                 header.loggedOut(); //changing header if logged out
@@ -46,8 +45,8 @@ class Data {
         return firebase.auth().signOut();
     }
 
-    getData() {
-        return $.get();
+    getAllProducts() {
+        return $.get('https://biostore-dc055.firebaseio.com/products.json');
     }
 
     updateData (data){

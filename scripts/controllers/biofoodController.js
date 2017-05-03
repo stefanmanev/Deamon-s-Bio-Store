@@ -1,14 +1,12 @@
 import { templates } from 'templates';
 import { data } from 'data';
-import { showSlides } from 'showSlides';
-let $main = $('#main');
 
+let $main = $('#main');
 export function getTemplate(params) {
     data.checkIfLogged();
-      Promise.all([templates.getTemplate('home'),
+      Promise.all([templates.getTemplate('biofood'),
                 data.getAllProducts()])
         .then(([template, data]) => {
-            console.log(data);
             $main.html(template(data));
         }) 
           .then(() => {
@@ -17,6 +15,5 @@ export function getTemplate(params) {
                   data.logOut()
                       .then(data.checkIfLogged);
               });
-        })
-          .then(showSlides);
+        });
 }
