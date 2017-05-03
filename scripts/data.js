@@ -51,5 +51,4 @@ class Data {
 
 let data = new Data();
 
-
 export { data };

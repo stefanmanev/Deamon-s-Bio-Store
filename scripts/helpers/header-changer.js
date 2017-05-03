@@ -1,6 +1,3 @@
-/**
- * Created by svrakata on 02.05.17.
- */
 const header = {
     logged: () => {
         $('#headerSignup, #headerLogin').hide();
