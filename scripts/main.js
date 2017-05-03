@@ -43,7 +43,7 @@ let button = $('#testButton').on('click',() => {
     };
     data.updateUserData(object);
     data.readUserDataOnce()
-        .then((e) => {console.log(e.val().username)} );
+        .then((e) => {console.log(e.val().products)} );
 
     let kkk = {
         products: {
@@ -58,20 +58,6 @@ let button = $('#testButton').on('click',() => {
     };
     firebase.database().ref('users/product/').set(kkk);
 });
-
-    let kkk = {
-        products: {
-            vafli:{
-                name: 'republika',
-                cena:123
-            },
-            vafli:'nqkvi',
-            vafli:'nqkvi'
-        }
-    };
-    firebase.database().ref().set(kkk);
-
-
 
 export function sammy() {
     return sammyApp;

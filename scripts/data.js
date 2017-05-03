@@ -5,13 +5,12 @@ class Data {
     createUser(email,password){
         return firebase.auth().createUserWithEmailAndPassword(email, password);
     }
-    getProducts() {
-        return requester.getJSON('https://biostore-dc055.firebaseio.com/-KiyiUXs4dOWoIDcdPh_/products.json');
-    }
+    
     loginUser(email,password){
         console.log('chep');
         return firebase.auth().signInWithEmailAndPassword(email,password);
     }
+    
     checkIfLogged(){
         firebase.auth().onAuthStateChanged((user) => {
             if(user) {
@@ -30,20 +29,24 @@ class Data {
             }
         });
     }
+    
     updateUserData (data){
         const user = firebase.auth().currentUser,
             userId = user.uid;
         return firebase.database().ref('users/' + userId).update(data);
     }
+    
     writeUserData(data){  //data is a object {---}
         const user = firebase.auth().currentUser,
             userId = user.uid;
         return firebase.database().ref('users/' + userId).set(data);  //users/+ uid ---> path to the individual user data
     }
+    
     readUserDataOnce(){
         const userId = firebase.auth().currentUser.uid;
         return firebase.database().ref('/users/' + userId).once('value');
     }
+    
     logOut(){
         return firebase.auth().signOut();
     }

@@ -2,7 +2,7 @@ import { templates } from 'templates';
 import $ from 'jquery';
 import { data } from 'data';
 import { sammy } from 'main';
-
+import toastr from 'toastr';
 
 let $main = $('#main');
 
@@ -17,7 +17,8 @@ export function getTemplate() {
                   password = $('#tb-password').val();
               data.loginUser(email, password)
                   .then(data.checkIfLogged)
-                  .then(this.redirect('#/home'));
+                  .then(this.redirect('#/home'))
+                  .catch((err) => toastr.error(err.message));
           });
       });
 }
