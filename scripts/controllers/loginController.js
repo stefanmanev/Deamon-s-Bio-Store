@@ -17,7 +17,8 @@ export function getTemplate() {
                   password = $('#tb-password').val();
               data.loginUser(email, password)
                   .then(data.checkIfLogged)
-                  .then(this.redirect('#/home'))
+                  .then(() => {this.redirect('#/home');
+                        toastr.success('Login Successful!');})
                   .catch((err) => toastr.error(err.message));
           });
       });

@@ -35,15 +35,15 @@ var sammyApp = Sammy(function(){
 
 let value = $('#testInput').val();
 let button = $('#testButton').on('click',() => {
-    let object = {
+    /*let object = {
         username: 'shturkel',
         comment: 'arebe',
         products: {
             vafla: 'chudo',
             chips: 'nqkyv'
         }
-    };
-    data.updateUserData(object);
+    };*/
+    //data.updateUserData(object);
     data.readUserDataOnce()
         .then((e) => {console.log(e.val())} );
 

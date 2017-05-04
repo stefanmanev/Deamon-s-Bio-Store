@@ -21,8 +21,9 @@ export function getTemplate(params) {
         data.createUser(newUser.email, newUser.password)
             .then(() => { data.writeUserData({username: newUser.username});})
             .then(data.checkIfLogged)
-            .then(this.redirect('#/home'))
+            .then(()=>{this.redirect('#/home');
+                        toastr.success('Register successful!');})
             .catch((err) => toastr.error(err.message));
-      });
+       });
     });
 }
