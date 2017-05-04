@@ -1,0 +1,214 @@
+{
+    "products": [
+        {
+            "name": "ORGANIC ROSEWATER SPRAY - 100ML",
+            "image": "database/images/images/31.jpg",
+            "description": "Cooling & uplifting Pure Rose petal essence. Organic Rosewater is lovingly used for toning the skin, cooling hot flushes and raising your spirits. It's a spray of pure joy.",
+            "ingredients": "Organic ingredients: Rosa damascena (Rose) flower water, geraniol+, citronnellol+, eugenol+. +Naturally occurs in ingredients",
+            "price": 11.06
+        },
+        {
+            "name": "NEEM & PROPOLIS CONDITIONER - 400ML",
+            "image": "database/images/images/32.jpg",
+            "description": "This fresh conditioner is a blend of Propolis and Neem, both of which are known for their natural antibacterial qualities, and are said to help discourage lice. Infused with citrus aromas to gently cleanse hair and scalp.",
+            "ingredients": "Aqua, Cetearyl alcohol, Brassica campestris seed oil, Melia azadirachta seed oil, Propolis cera, Citrus aurantium amara leaf/twig oil, Litsea cubeba fruit oil, Citrus aurantium dulcis peel oil, Citrus reticulata peel oil, Cinnamomum zeylanicum leaf oil, Melaleuca alternifolia leaf oil, Cetrimonium chloride, Tocopherol, Helianthus annuus seed oil, Sodium benzoate , Potassium Sorbate, Citric acid, Citral , Eugenol , Limonene",
+            "price": 3.70
+        },
+        {
+            "name": "MOISTURE MIRACLE ARGAN BATH & SHOWER CREAM - 250ML",
+            "image": "database/images/images/33.jpg",
+            "description": "Inecto Naturals Moisture Miracle Argan Bath & Shower Cream is made with pure organic argan oil, a brilliant shower and bath gel perfect for moisturising your skin while leaving with a great fragrance.",
+            "ingredients": "Aqua, Sodium Laureth Sulfate, Sodium Chloride, Cocoamidopropyl Betane, Glycerin, Argania Spinosa (Argan) Kernel Oil, Polyquaternium-7, Sodium Luaryl Sulfate, Styrene/Acrylates Copolymer, Peg-4, Rapeseedamide, Parfum, Disodium EDTA, Trideceth-7, Potassium Sorbate, Sodium Benzoate, Citric Acid.",
+            "price": 2.09
+        },
+        {
+            "name": "AGE RESPONSE EYE CREAM - 15ML",
+            "image": "database/images/images/34.jpg",
+            "description": "Contains radical ingredients developed specifically to address problems of dark circles and puffiness around the eyes. Results visible in just 4 weeks. With Dead Sea minerals, together with Vitamin B5 and Jojoba Oil, to help reduce the appearance of fine lines around the eye.",
+            "ingredients": "Harmonised Water (Aqua, Maris Sal), Glycerin, Simmondsia Chinensis (Jojoba) Oil, Phytosqualane, Cyclopentasiloxane, Glyceryl Stearate, Propylene Glycol (food grade), Cetanol, Butyrospermum Parkii (Shea Butter), Limnanthes Alba (Meadowfoam) Seed Oil, Boron Nitride, Arachidyl Alcohol, Behenyl Alcohol, Arachidyl Glucoside, Cetearyl Alcohol, Cetearyl Glucoside, Phenoxyethanol, Dipalmitoyl Hydroxyproline, Lauroyl Lysine, Panthenol (Pro-Vitamin B5), Hydrolyzed Rice Bran Proteins, Tocopheryl Acetate (Vitamin E), Sodium Acrylate/ Sodium Acryloyldimethyl Taruate Copolymer, Polyisobutene, Caprylyl/ Capryl Glucoside, Allantoin, Ethylhexylglycerin, Xanthan Gum, Triethanolamine, Potasium Sorbate, Disodium EDTA, PEG-40 Hydrogenated Castor Oil, Tocopherol, Vitis Vinifera (Grape) Seed Extract, Sodium Lactate, TEA-Lactate, Serine, Lactic Acid, Urea, Sorbitol, Parfum (Fragrance), Glycine Soja (Soybean) Proteins, Oxido Reductases, Sodium Chloride, Steareth-20, Hydroxysuccinimide, Chrysin8, Palmitoyl Oligopeptide, Palmitoyl Tetrapeptide-3.",
+            "price": 18.92
+        },
+        {
+            "name": "OMEGA 3 FISH OIL 90 CAPSULES - 117G",
+            "image": "database/images/images/35.jpg",
+            "description": "Omega 3 Fish Oil Food Supplement tablets are high in omega 3 as well as EPA & EDH.",
+            "ingredients": "Omega 3 Fish (Antioxidant: Natural Mixed Tocopherols): Capsule Shell: Gelatine, Glycerine, Antioxidant: D-Alpha Tocopherol",
+            "price": 7.63
+        },
+        {
+            "name": "BIO-OIL - SPECIALIST SKINCARE OIL - 125ML",
+            "image": "database/images/images/36.jpg",
+            "description": "Bio-Oil contains various vitamins as well as flower extracts and oils.",
+            "ingredients": "Calendula Officinalis Flower Extract (Calendula Oil), Lavandula Angustifolia Oil (Lavender Oil), Rosmarinus, Officinalis Leaf Oil (Rosemary Oil), Anthemis Nobilis Flower Oil (Chamomile Oil), Retinyl Palmitate (Vitamin A), Tocopheryl Acetate (Vitamin E), Mineral Oil (Paraffinum Liquidum), Triisononanoin, Cetearyl Ethylhexanoate, Isopropyl Myristate, Glycine Soja Oil, Helianthus Annuus Seed Oil, BHT, Bisabolol, Fragrance (Rose), Alpha-Isomethyl Ionone, Amyl Cinnamal, Benzyl Salicylate, Citronellol, Coumarin, Eugenol, Farnesol,,Geraniol, Hydroxycitronellal, Hydroxyisohexyl 3-Cyclohexene Carboxaldehyde, Limonene, Linalool, Orange: CI 26100 (Red 17)",
+            "price": 15.94
+        },
+        {
+            "name": "POMEGRANATE & ROOIBOS HAND WASH - 300ML",
+            "image": "database/images/images/37.jpg",
+            "description": "This hand wash will leave the hands thoroughly cleansed, whilst the skin nourishing properties of the organic pomegranate and rooibos extracts help to keep them soft and moisturised. The anti-oxidant properties of both help to soothe dry, chapped hands as well as combating the effects of environmental stress. Use as part of your daily hand care routine.",
+            "ingredients": "Aqua, Ammonium laureth sulfate, Maris sal, Polysorbate 20, Cocamidopropyl betaine, Punica granatum fruit extract, Aspalathus linearis leaf, Glycerin, Alcohol denat, Melaleuca alternifolia leaf oil, Anthocyanins, Sodium benzoate, Potassium sorbate, Citric acid, Aroma, Linalool, Limonene.",
+            "price": 3.53
+        },
+        {
+            "name": "NATURAL DEODORANT - 75ML",
+            "image": "database/images/images/38.jpg",
+            "description": "Green People's natural deodorant is a gentle and effective roll-on deo with prebiotics, it does not prevent the essential process of perspiration reduces bacterial growth. Free from fragrance, ethyl alcohol and other potential irritants.",
+            "ingredients": "Green People Natural Rosemary Deodorant is made without pore-clogging aluminium, parabens, methylisothiazolinone, methylchloroisothiazolinone, alcohol (ethyl alcohol, ethanol) and artificial fragrances to bring you the purest deodorant that nature can offer.",
+            "price": 7.70
+        },
+        {
+            "name": "ROOTS & WINGS - CONDITIONER - SWEET ORANGE & ROSE GERANIUM - 250ML",
+            "image": "database/images/images/39.jpg",
+            "description": "A delicately, sweet aromatic formula to leave hair strong, balanced and healthy. Organic essential oils have been blended to perfection by Roots & Wings experts and only when it has created what it is happy to put its name to is each batch signed by the companys master blender.",
+            "ingredients": "Organic sugar, Organic Seville oranges, Gelling agent: pectin*, *Approved non-organic ingredient",
+            "price": 4.35
+        },
+        {
+            "name": "BIODEGRADABLE WIPES - 72 WIPES",
+            "image": "database/images/images/40.jpg",
+            "description": "Attitude Baby Wipes are made from the safest and friendly natural ingredients, perfectly bio-degradable and environmentally friendly.",
+            "ingredients": "Aqua, Glycerin, Decyl glucoside, Chamomilla recutita flower extract, Aloe barbadensis extract, Bisabolol, Tocopheryl acetate (vitamin E), Benzyl alcohol, Sodium benzoate, Sodium dehydroacetate, Benzoic acid, Citric acid",
+            "price": 4.79
+        },
+        {
+            "name": "BODY WASH HYPOALLERGENIC - 355ML",
+            "image": "database/images/images/41.jpg",
+            "description": "Attitude Shampoo is made from the safest and friendly natural ingredients, uses worry free and hypoallergenic ingredients, completely suitable for the little ones.",
+            "ingredients": "aqua, sodium coco-sulfate, coco-glucoside, decyl glucoside, sodium chloride, glycerin, glyceryl oleate, citric acid, parfum/fragrance*, sodium gluconate, sodium benzoate, potassium sorbate. *derived from natural ingredients.",
+            "price": 8.28
+        },
+        {
+            "name": "BLUE CEDAR SHOWER GEL - 400ML",
+            "image": "database/images/images/42.jpg",
+            "description": "This rich and distinctive shower gel is a blend of the aromas of blue cedar and Swedish mountain herbs and trees. Bursting with luxurious aromas to lift your day. Contains natural vitamin E, glycerine and organic green tea known for its antioxidant qualities.",
+            "ingredients": "Aqua (Water), Ammonium laureth sulfate*, Maris sal (Sea salt), Cocamidopropyl betaine*, Polysorbate 20*, Camelia sinensis leaf extract **, Glycerin*, Tocopherol*, Helianthus annuus (sunflower) seed oil*, Parfum (Fragrance)*, Sodium benzoate, Potassium sorbate, Citric acid*, Curcumin CI 75300*, Geraniol Âº, LinaloolÂº",
+            "price": 4.41
+        },
+        {
+            "name": "NATURAL DEODORANT - ROSEMARY - 75ML",
+            "image": "database/images/images/43.jpg",
+            "description": "Green People's natural deodorant is a gentle and effective roll-on deo with prebiotics, it does not prevent the essential process of perspiration reduces bacterial growth. Contains Rosemary aroma.",
+            "ingredients": "AQUA (SPRING WATER), POTASSIUM ALUM (NATURAL MINERAL), OLEA EUROPAEA (OLIVE) FRUIT OIL*, HELIANTHUS ANNUUS (SUNFLOWER) SEED OIL*, ZINC RICINOLEATE (FROM CASTOR OIL), CETEARYL GLUCOSIDE (PLANT DERIVED EMULSIFIER), CETEARYL ALCOHOL (EMULSIFYING PLANT WAX), BUTYROSPERMUM PARKII (SHEA) BUTTER*^, GLYCERYL STEARATE (PLANT DERIVED EMULSIFIER), LEVULINIC ACID (PLANT DERIVED), ALPHA-GLUCAN OLIGOSACCHARIDE (PREBIOTIC), ALOE BARBADENSIS (ALOE VERA) LEAF JUICE POWDER*, ROSMARINUS OFFICINALIS (ROSEMARY) LEAF EXTRACT*, AROMA [ROSMARINUS OFFICINALIS (ROSEMARY) LEAF OIL*^, LAVANDULA ANGUSTIFOLIA (LAVENDER) HERB OIL*^, LAVANDULA HYBRIDA (LAVANDIN) HERB OIL*], CETEARYL OLIVATE (FROM OLIVE OIL), SORBITAN OLIVATE (FROM OLIVE OIL), SCLEROTIUM GUM (NATURAL GUM), XANTHAN GUM (CORN STARCH GUM), SODIUM STEAROYL GLUTAMATE (PLANT DERIVED EMULSIFIER), SODIUM LAURYL GLUCOSE CARBOXYLATE (PLANT DERIVED), LAURYL GLUCOSIDE (PLANT DERIVED), POTASSIUM SORBATE, LINALOOL*. *89.6% ORGANIC ^FAIRLY TRADED",
+            "price": 8.15
+        },
+        {
+            "name": "FACE CONTOUR CREAM - 50ML",
+            "image": "database/images/images/44.jpg",
+            "description": "Quuen of the Hive has been created to give your face the royal treatment from the blend of natural ingredients such as organic manuka honey & bee venom.",
+            "ingredients": "Canadian glacial water, organic manuka KFactorâ¢ 16+ honey and bee venom (mel, bee venom), organic manuka bees wax (cera alba), apricot kernel oil (prunus armeniaca kernel oil), cocoa butter (theobroma cacao seed butter), avacado oil (persea gratissima oil), lanette wax (cocos nuciferia, cetearyl glucoside, cetearyl alcohol), hydrolyzed rhizobian gum, acacia senegal gum, marshmallow root (althea officinalis root), rosehip oil (rosa spp. fruit oil), rose hydrosol (rosa damascena), phenoxyethanol, caprylyl glycol, sorbic acid, evening primrose oil (oenothera biennis oil), vitamin e (mixed tocopherols), ylang-ylang essential oil (cananga odorate flower), egyptian geranium oil (pelargonium graveolens oil), vanilla (vanilla planifolia), tea tree oil (melaleuca alternifolia leaf oil).",
+            "price": 41.99
+        },
+        {
+            "name": "MAGNESIUM BODY BUTTER - 180ML",
+            "image": "database/images/images/45.jpg",
+            "description": "Magnesium Body Butter is a moisturising body butter containing a great balance of ingredients specially combined for being kind to skin. A blend of magnesium oil, shea butter, cocoa butter, coconut oil and vitamin E.",
+            "ingredients": "Aqua (water), cocos nucifera (coconut) oil, cetearyl alcohol, magnesium chloride, butyrospermum parkii (shea) butter, sorbitan stearate, caprylic/capric triglyceride, glycerin, theobroma cacao (cocoa) seed butter, benzyl alcohol, cetearyl glucoside, tocopherol, hydroxyethylcellulose, citric Acid, sodium benzoate, dehydroacetic acid, citrus aurantium dulcis (orange) oil, xanthan gum, parfum (fragrance), citrus limon (lemon) peel oil, citrus aurantifolia (lime) oil, vanilla planifolia fruit extract, limonene.",
+            "price": 7.69
+        },
+        {
+            "name": "BODY WASH GIFT PACK - 600ML",
+            "image": "database/images/images/46.jpg",
+            "description": "This pampering trio features 3 of Weleda's most popular Body Washes, which are gentle on the body leaving it cleansed and soft without drying the skin. The subtle fragrances are a pleasure to experience making every bath or shower a treat for every sense.",
+            "ingredients": "Concentrated solution of Magnesium Chloride (15%).",
+            "price": 17.90
+        },
+        {
+            "name": "VITAMIN C - BALANCING FACIAL TONER - 250ML",
+            "image": "database/images/images/47.jpg",
+            "description": "To rebalance skin tone and moisture levels, our pore perfecting combination of Aloe, Cucumber and Papaya Extracts purifies and hydrates while targeting areas of hyperpigmentation. Plant-derived Vitamin C, a powerful antioxidant and cell energizer, helps eliminate free radical damage caused by daily sun exposure to help fight the visible signs of photo-aging.",
+            "ingredients": "Aqua (Water), Aloe Barbadensis Leaf Juice*, Glycerin, Arnica Montana Flower Extract*, Calendula Officinalis Flower Extract*, Camellia Sinensis Leaf Extract*, Carica Papaya (Papaya) Fruit Extract*, Chamomilla Recutita (Matricaria) Flower Extract*, Citrus Limon (Lemon) Peel Extract*, Cucumis Sativus (Cucumber) Fruit Extract*, Echinacea Angustifolia Extract*, Ginkgo Biloba Leaf Extract*, Lavandula Angustifolia (Lavender) Flower/Leaf/Stem Extract*, Olea Europaea (Olive) Leaf Extract*, Citrus Aurantium Bergamia (Bergamot) Fruit Oil, Citrus Aurantium Dulcis (Orange) Peel Oil, Citrus Limon (Lemon) Peel Oil, Ascorbyl Glucoside, Caprylyl/Capryl Wheat Bran/Straw Glycosides, Fusel Wheat Bran/Straw Glycosides, Glyceryl Caprylate, Polyglyceryl-5 Oleate, Salicylic Acid, Sodium Cocoyl Glutamate, Sodium Hyaluronate, Alcohol*, Calcium Gluconate, Gluconolactone, Potassium Sorbate, Sodium Benzoate, Citral, Limonene, Linalool - * Certified Organic Ingredient",
+            "price": 9.57
+        },
+        {
+            "name": "ORGANIC SOAP - CALMING & MOISTURISING - 40G",
+            "image": "4database/images/images/48.jpg8",
+            "description": "Bentley Organic has created this small handy soap perfect for a travel bag, made with lavender, aloe vera and jojoba.",
+            "ingredients": "Olea Europaea (Olive) Fruit Oil*, Helianthus Annuus (Sunflower) Seed Oil*, Cera Alba (Beeswax)*, Butyrospermum Parkii (Shea Butter)*, Simmondsia Chinensis (Jojoba) Seed Oil*, Melaleuca Alternifolia (Tea Tree) Leaf Oil*, Mentha Piperita (Peppermint) Oil*,Limonene*, Linalool*, Parfum (Fragrance)*",
+            "price": 0.85
+        },
+        {
+            "name": "SEAWEED & CITRUS SHAMPOO - 5L",
+            "image": "database/images/images/49.jpg",
+            "description": "This refreshing shampoo blends the antioxidant qualities of wild harvested Seaweed with aromatic lemon aromas. A perfect balance between the green and the blue halves of our planet.",
+            "ingredients": "Aqua, Ammonium laureth sulfate, Maris sal, Polysorbate 20, Ascophyllum nodosum powder, Citrus limon peel oil, Citrus aurantifolia oil, Cananga odorata flower oil, Melaleuca alternifolia leaf oil, Potassium sorbate, Sodium benzoate, Citric acid, Limonene, Citral",
+            "price": 49.99
+        },
+        {
+            "name": "CONDITIONER - STRENGTHENING PEPPERMINT - 325ML",
+            "image": "database/images/images/50.jpg",
+            "description": "Rich plant emollients plus revitalizing Babassu Oil, Vitamin E, Guar, Arginine and Peppermint condition hair while repairing elasticity to help prevent future breakage for stronger, smoother, healthier-looking hair.",
+            "ingredients": "Aloe Barbadensis Leaf Juice (1), Aqua (Water), Glyceryl Stearate SE, Caprylic/Capric Triglyceride, Helianthus Annuus (Sunflower) Seed Oil (1), Cetyl Alcohol, Stearic Acid, Stearyl Alcohol, Olea Europaea (Olive) Fruit Oil (1), Calendula Officinalis Flower Extract (1), Chamomilla Recutita (Matricaria) Flower Extract (1), Mentha Piperita (Peppermint) Leaf Extract (1), Butyrospermum Parkii (Shea Butter) (1), Canarium Luzonicum Gum Nonvolatiles, Cedrus Atlantica Bark Oil, Citrus Aurantium Dulcis (Orange) Peel Oil, Mentha Arvensis Leaf Oil, Geranium Maculatum Oil, Mentha Piperita (Peppermint) Oil (1), Orbignya Oleifera (Babassu) Seed Oil (1), Simmondsia Chinensis (Jojoba) Seed Oil (1), Arginine, Bisabolol, Hydrolyzed Wheat Protein, Sorbitol, Tocopheryl Acetate, Alcohol (1), Benzyl Alcohol, Potassium Sorbate, Sodium Benzoate, Limonene",
+            "price": 6.30
+        },
+        {
+            "name": "JOJOBA SHAMPOO - 400ML",
+            "image": "database/images/images/51.jpg",
+            "description": "This refreshing shampoo is a blend of Jojoba and Seaweed with Panthenol (Pro-vitamin B5) known for its rejuvenating qualities. Wakey wakey!",
+            "ingredients": "Aqua, Ammonium laureth sulfate, Maris sal, Polysorbate 20, Simmondsia chinensis seed oil, Panthenol, Citrus aurantium dulcis peel oil, Cananga odorata flower oil, Melaleuca alternifolia leaf oil, Ascophyllum nodosum powder, Potassium sorbate, Sodium benzoate, Citric acid, Limonene",
+            "price": 6.00
+        },
+        {
+            "name": "EXQUISITE SHINE ARGAN HAIR OIL SPRAY - 100ML",
+            "image": "database/images/images/52.jpg",
+            "description": "Inecto Naturals Exquisite Shine Argan Hair Oil Spray is made with pure organic argan oil, spray onto hair to help lift and nourish whilst adding a healthy shine the spray also aids the hair by giving it the great smell of argan.",
+            "ingredients": "Cyclopentasiloxan, Dimethicono, Dimethicone, Bis-hydroxy/Methixy Amodimethicone, Argania Spinosa (Argan) Kernel Oil, Parfum",
+            "price": 4.18
+        },
+        {
+            "name": "BAMFORD GERANIUM BATH OIL  250ml",
+            "image": "database/images/images/53.jpg",
+            "description": "Bamford Geranium Bath Oil is a blend of essential oils suspended in natural oils of sweet almond and apricot kernel beautifully presented in Bamford's iconic green glass bottle. This toning and relaxing bath oil brings the spa into your home and helps bring balance to the mind while gently hydrating the body. The Bamford Rose Collection is scented with a floral heart of precious Moroccan 'hundred' leaved rose, ylang ylang flower and camomile, with fruity nuances of lemon and blackcurrant bud to bestows tranquillity and inner peace.",
+            "ingredients": "HELIANTHUS ANUUS (SUNFLOWER) SEED OIL*, OLEA EUROPAEA (OLIVE) FRUIT OIL*, GLYCERYL CAPRYLATE, POLYGLYCERYL-3 PALMITATE, EUCALYPTUS GLOBULUS LEAF OIL, LAVANDULA ANGUSTIFOLIA (LAVENDER) FLOWER OIL, PRUNUS AMYGDALUS DULCIS (SWEET ALMOND) OIL*, PRUNUS ARMENIACA (APRICOT KERNEL OIL)*, PELARGONIUM GRAVEOLENS (GERANIUM) FLOWER OIL, MENTHA PIPERITA (PEPPERMINT) OIL, LAVANDULA HYBRIDA (LAVENDER) OIL, DYPTERYX ODORATA (TONKA BEAN) SEED EXTRACT, LINALOOL, LIMONENE, CITRONELLOL, GERANIOL, COUMARIN, CITRAL.",
+            "price": 45.00
+        },
+        {
+            "name": "BODHI & BIRCH JASMINE FALLS BATH & SHOWER THERAPY  200ml",
+            "image": "database/images/images/54.jpg",
+            "description": "Bodhi & Birch Jasmin Falls Bath & Shower Therapy is a potent blend of the euphoric aroma of intoxicating Jasmine, High-Altitude Lavender and grounding Vetiver, which is designed to help de-stress the body, soothe the mind and promote an overall sense of well-being. Ideal at the end of the day to encourage sleep. Skin is left cleansed and regenerated. Senses are deeply relaxed.",
+            "ingredients": "Aqua (Purified Water), Disodium Cocoamphodiacetate (from Coconut Oil), Disodium Laureth Sulfosuccinate (from Coconut Oil), Coco-Glucoside (from Coconut Oil & Fruit Sugar), Polysorbate 20 (from Coconut Oil & Fruit Sugar), Cananga Odorata (Ylang-Ylang) Flower Oil, Jasminum Officinale (Jasmine) Flower Extract, Lavandula Angustifolia (High-Altitude Lavender) Flower Oil, Lonicera Caprifolium (Honeysuckle) Flower Extract, Citrus Nobilis (Red Mandarin) Peel Oil, Vetiveria Zizanoides (Vetiver) Root Oil, Lactic Acid (from Beet Sugar), Gluconolactone (from Corn), Sodium Benzoate, Benzyl Alcohol*, Benzyl Salicylate*, Benzyl Benzoate*, Limonene*, Linalool*. * natural component of essential oils.",
+            "price": 20.00
+        },
+        {
+            "name": "BURT'S BEES THERAPEUTIC BATH CRYSTALS  450g",
+            "image": "database/images/images/55.jpg",
+            "description": "Burt's Bees Therapeutic Bath Crystals relieve the body after strenuous exercise which can be great for the body, but hard on muscles. Indulge in a warm bath of salt crystals and essential oils after a workout to help release the lactic acid that builds up during physical activity causing muscle ache. The penetrating action of Burt's Bees all natural Therapeutic Bath Crystals essential oils helps stimulate the elimination of waste products, helping muscles feel as good as new.",
+            "ingredients": "maris sal (sea salt, sel marin), sodium bicarbonate, parfum (fragrance), eucapyptus leaf oil, citrus medica limonum (lemon) oil, rosemary oil, tocopherol, glycine soja (soybean) oil, citral, limonene.",
+            "price": 11.99
+        },
+        {
+            "name": "COWSHED SLEEPY COW BATH SALTS  300g",
+            "image": "database/images/images/56.jpg",
+            "description": "Cowshed Sleepy Cow Bath Salts contain a bespoke and unique aromatherapy blend of Melissa and Lemon Myrtle essential oils that can help relieve tension and stress",
+            "ingredients": "maris sal/sea salt/sel marin, sodium chloride (himalayan crystal) salt, glycerin (vegetable), caprylic/capric triglyceride, alchemilla vulgaris (lady’s mantle) leaf extract",
+            "price": 18.00
+        },
+        {
+            "name": "ELEMENTAL HERBOLOGY DETOX BOTANICAL BATHING INFUSION  150ml",
+            "image": "database/images/images/57.jpg",
+            "description": "Elemental Herbology Detox Botanical Bathing Infusion is a detoxifying bath oil to help reduce fluid retention, invigorate circulation and shift toxins that can manifest as cellulite, leaving you positively energized and revived whilst softening and nourishing the skin.",
+            "ingredients": "Prunus Amygdalus Dulcis (Sweet Almond) Oil *, Prunus Persica (Peach) Kernel Oil*, C12-13 Pareth-3 Simmondsia Chinensis (Jojoba) Seed Oil*, Rosmarinus Officinalis (Rosemary) Leaf Oil*, Citrus Grandis (Grapefruit) Peel Oil*, Juniperus Communis Fruit Oil*, Pelargonium Graveolens Flower Oil*, Tocopheryl Acetate (Vitamin E), Citral*, Geraniol*, Citronellol*, Limonene*, Linalool*. *Ingredients derived from 100% natural source",
+            "price": 16.78
+        },
+        {
+            "name": "BATH & SHOWER OIL SWEET LULLABY ",
+            "image": "database/images/images/58.jpg",
+            "description": "Lola's Apothecary Bath & Shower Oil Sweet Lullaby will make you feel warmly embraced by a grounding blend of joyous and relaxing plant essences. Sweet Lullaby is a comforting scent with Lavender and Ylang Ylang at its soothing heart, grounded by Patchouli and Vanilla at its spicy base, and uplifted by Sweet Orange in the top note to sing a sweet lullaby. This oil is extraordinarily concentrated, with one bottle enough for approximately 40 baths.",
+            "ingredients": "Prunus Amygdalus Dulcis (Sweet Almond) Seed Oil, Vitis Vinifera (Grape) Seed Oil, Lavandula Augustifolia (Lavender) Flower Oil",
+            "price": 38.99
+        },
+        {
+            "name": "MAULI RITUALS HIMALAYAN HEALING SALTS  250g",
+            "image": "database/images/images/59.jpg",
+            "description": "Mauli Rituals Himalayan Healing Salts are a multi-layered blend that harbours the unique vibrational energy of himalayan pink salts, which contain 84 of the 92 trace minerals found in the body. These relaxing bath salts are formulated to counteract the damaging effects of daily demands, stress and constant radiation from mobile phones and computers that can leave us feeling fatigued, irritable and off balance.",
+            "ingredients": "Himalayan Salts, Geranium, Sweet Blood Orange, Grapefruit, Lime, Patchouli, Sandalwood, Frankincense, Himalayan Cedarwood. Turkish rose, Jasmine Sambac Absolute, Rose Otto, Vanilla Absolute, Lavender, Rose Quartz Crystals, Citronellol, Geraniol, Linalool, Eugenol, Cinnamal, Benzyl Alcohol, Farnesol.",
+            "price": 26.50
+        },
+        {
+            "name": "PINKS BOUTIQUE ROSE CRYSTAL BATH SOAK  200g",
+            "image": "database/images/images/60.jpg",
+            "description": "Pinks Boutique Rose Crystal Bath Soak is a luxurious gently cleansing Himalayan mineral crystal bath soak infused with an organic blend of rose and lavender essential oils, Dead Sea Salts and Epsom salts. This soothing bath soak will assist with skin healing and softening, as well as inducing a sense of wellbeing and calm, helping you to relax and promote sound sleep.",
+            "ingredients": "Sodium chloride (Himalayan mineral crystal), maris sal (Dead Sea salt), magnesium sulphate (Epsom salt), parfum",
+            "price": 26.00
+        }
+    ]
+}
