@@ -23,6 +23,4 @@ const header = {
     }
 };
 
-export {
-    header
-};
+export { header };
