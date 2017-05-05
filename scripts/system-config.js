@@ -18,6 +18,7 @@ System.config({
    'header': 'scripts/helpers/header-changer.js',
    'showSlides': 'scripts/slides.js',
    'biofoodController': 'scripts/controllers/biofoodController.js',
+   'biofoodDetailedController': 'scripts/controllers/biofoodDetailedController.js',
    'cosmeticsController': 'scripts/controllers/cosmeticsController.js',
    'searchController': 'scripts/controllers/searchController.js',
    // templates

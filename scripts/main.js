@@ -8,6 +8,7 @@ import { getTemplate as getHome } from 'homeController';
 import { getTemplate as getRegister } from 'registerController';
 import { getTemplate as getAbout } from 'aboutController';
 import { getTemplate as getBiofood } from 'biofoodController';
+import { getTemplate as getBiofoodDetailedPage } from 'biofoodDetailedController';
 import { getTemplate as getCosmetics } from 'cosmeticsController';
 import { data } from 'data';
 
@@ -25,6 +26,8 @@ var sammyApp = Sammy(function(){
     this.get('#/about', getAbout);
 
     this.get('#/biofoods', getBiofood);
+
+    this.get('#/biofoods/:id', getBiofoodDetailedPage);
 
     this.get('#/cosmetics', getCosmetics);
     
