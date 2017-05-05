@@ -166,6 +166,7 @@ h3.product-name:first-letter {
 }
 
 .img-title p {
+    color: #000000;
     margin-top: 8px;
     opacity: 1;
 }
