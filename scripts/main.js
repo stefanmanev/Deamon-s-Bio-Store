@@ -15,6 +15,7 @@ var sammyApp = Sammy(function(){
     this.get('#/', function () {
         this.redirect('#/home');
     });
+
     this.get('#/home', getHome);
 
     this.get('#/register', getRegister);
@@ -26,6 +27,7 @@ var sammyApp = Sammy(function(){
     this.get('#/biofoods', getBiofood);
 
     this.get('#/cosmetics', getCosmetics);
+    
     $(function () {
         sammyApp.run('#/');
     });

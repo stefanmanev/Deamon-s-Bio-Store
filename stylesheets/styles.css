@@ -173,6 +173,10 @@ footer div.col-xs-6 {
     text-align: right;
 }
 
+#logo a, #logo a:visited {
+    color: #000000;
+}
+
 .fa-facebook-official:hover {
     color: #3B5998;
 }
@@ -184,10 +188,12 @@ footer div.col-xs-6 {
 .hidden {
     display: none;
 }
+
 .form-login {
     width: 250px;
     margin: 5px;
 }
+
 .form-register {
     width: 250px;
     margin: 5px;
@@ -273,6 +279,16 @@ footer div.col-xs-6 {
     #copyright {
         font-size: 0.64em;
     }
+    
+    .form-login {
+        width: 200px;
+        margin: 5px;
+    }
+
+    .form-register {
+        width: 200px;
+        margin: 5px;
+    }
 }
 
 /* Slideshow container */
@@ -334,23 +350,25 @@ footer div.col-xs-6 {
 /* Fading animation */
 .fade {
   -webkit-animation-name: fade;
-  -webkit-animation-duration: 5s;
+  -webkit-animation-duration: 8s;
   animation-name: fade;
-  animation-duration: 5s;
+  animation-duration: 8s;
 }
 
 @-webkit-keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
+  from {
+      opacity: .44;
+  } 
+  to {
+      opacity: 1
+  }
 }
 
 @keyframes fade {
-  from 
-  {
-      opacity: .4;
+  from {
+      opacity: .44;
   } 
-  to 
-  {
+  to {
       opacity: 1;
   }
 }
@@ -423,7 +441,7 @@ article p {
     color: #FDF6F0;
 }
 
-h3.form-register {
+h3.form-header {
     font-family: 'Variane Script';
     font-size: 2.4em;
     text-align: center;
@@ -433,28 +451,38 @@ h3.form-register {
     margin-bottom: 20px;
 }
 
-#sign-up-form {
+.sign-form {
     width: 72%;
     margin: 0 auto;
 }
 
-#sign-up {
+#sign-up, #sign-in {
     margin: 0 auto;
     text-align:center;
 }
 
-#sign-up input {
+#sign-up input, #sign-in input {
     margin-right: auto;
     margin-left: auto;
     margin-bottom: 8px;
     border-radius: 8px;
 }
 
-#sign-up button {
+#sign-up input:focus, #sign-in input:focus {
+    outline: none;
+    box-shadow: none;
+    border: none;
+}
+
+#sign-up button, #sign-in button {
     background-color:#BDDB79;
     margin-top: 0;
-    margin-bottom: 8px;
+    margin-bottom: 48px;
     border-radius: 8px;
+}
+
+#sign-up button:focus, #sign-in button:focus {
+    outline: none;
 }
 
 @media (max-width: 540px) {  
@@ -462,8 +490,8 @@ h3.form-register {
         width: 86%;
     }
 
-    h3.form-register {
-    font-size: 2em;
+    h3.form-header {
+        font-size: 2em;
     }
 }
 
@@ -472,7 +500,7 @@ h3.form-register {
         width: 100%;
     }
     
-    h3.form-register {
+    h3.form-header {
         font-size: 1.6em;
     }
 }
