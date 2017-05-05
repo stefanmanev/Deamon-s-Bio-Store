@@ -1,6 +1,7 @@
 ﻿{
     "products": [
         {
+            "id": 30,
             "name": "ORGANIC ROSEWATER SPRAY - 100ML",
             "image": "database/images/31.jpg",
             "description": "Cooling & uplifting Pure Rose petal essence. Organic Rosewater is lovingly used for toning the skin, cooling hot flushes and raising your spirits. It's a spray of pure joy.",
@@ -8,13 +9,15 @@
             "price": 11.06
         },
         {
+           "id": 31,
             "name": "NEEM & PROPOLIS CONDITIONER - 400ML",
-            "database/images/32.jpg",
+            "image": "database/images/32.jpg",
             "description": "This fresh conditioner is a blend of Propolis and Neem, both of which are known for their natural antibacterial qualities, and are said to help discourage lice. Infused with citrus aromas to gently cleanse hair and scalp.",
             "ingredients": "Aqua, Cetearyl alcohol, Brassica campestris seed oil, Melia azadirachta seed oil, Propolis cera, Citrus aurantium amara leaf/twig oil, Litsea cubeba fruit oil, Citrus aurantium dulcis peel oil, Citrus reticulata peel oil, Cinnamomum zeylanicum leaf oil, Melaleuca alternifolia leaf oil, Cetrimonium chloride, Tocopherol, Helianthus annuus seed oil, Sodium benzoate , Potassium Sorbate, Citric acid, Citral , Eugenol , Limonene",
             "price": 3.70
         },
         {
+            "id": 32,
             "name": "MOISTURE MIRACLE ARGAN BATH & SHOWER CREAM - 250ML",
             "image": "database/images/33.jpg",
             "description": "Inecto Naturals Moisture Miracle Argan Bath & Shower Cream is made with pure organic argan oil, a brilliant shower and bath gel perfect for moisturising your skin while leaving with a great fragrance.",
@@ -22,6 +25,7 @@
             "price": 2.09
         },
         {
+            "id": 33,
             "name": "AGE RESPONSE EYE CREAM - 15ML",
             "image": "database/images/34.jpg",
             "description": "With Dead Sea minerals, together with Vitamin B5 and Jojoba Oil, to help reduce the appearance of fine lines around the eye.",
@@ -29,6 +33,7 @@
             "price": 18.92
         },
         {
+            "id": 34,
             "name": "OMEGA 3 FISH OIL 90 CAPSULES - 117G",
             "image": "database/images/35.jpg",
             "description": "Omega 3 Fish Oil Food Supplement tablets are high in omega 3 as well as EPA & EDH.",
@@ -36,6 +41,7 @@
             "price": 7.63
         },
         {
+            "id": 35,
             "name": "BIO-OIL - SPECIALIST SKINCARE OIL - 125ML",
             "image": "database/images/36.jpg",
             "description": "Bio-Oil contains various vitamins as well as flower extracts and oils.",
@@ -43,6 +49,7 @@
             "price": 15.94
         },
         {
+            "id": 36,
             "name": "POMEGRANATE & ROOIBOS HAND WASH - 300ML",
             "image": "database/images/37.jpg",
             "description": "This hand wash will leave the hands thoroughly cleansed, whilst the skin nourishing properties of the organic pomegranate and rooibos extracts help to keep them soft and moisturised. The anti-oxidant properties of both help to soothe dry, chapped hands as well as combating the effects of environmental stress. Use as part of your daily hand care routine.",
@@ -50,6 +57,7 @@
             "price": 3.53
         },
         {
+            "id": 37,
             "name": "NATURAL DEODORANT - 75ML",
             "image": "database/images/38.jpg",
             "description": "Green People's natural deodorant is a gentle and effective roll-on deo with prebiotics, it does not prevent the essential process of perspiration reduces bacterial growth. Free from fragrance, ethyl alcohol and other potential irritants.",
@@ -57,6 +65,7 @@
             "price": 7.70
         },
         {
+            "id": 38,
             "name": "ROOTS & WINGS - CONDITIONER - SWEET ORANGE & ROSE GERANIUM - 250ML",
             "image": "database/images/39.jpg",
             "description": "A delicately, sweet aromatic formula to leave hair strong, balanced and healthy. Organic essential oils have been blended to perfection by Roots & Wings experts and only when it has created what it is happy to put its name to is each batch signed by the companys master blender.",
@@ -64,6 +73,7 @@
             "price": 4.35
         },
         {
+            "id": 39,
             "name": "BIODEGRADABLE WIPES - 72 WIPES",
             "image": "database/images/40.jpg",
             "description": "Attitude Baby Wipes are made from the safest and friendly natural ingredients, perfectly bio-degradable and environmentally friendly.",
@@ -71,6 +81,7 @@
             "price": 4.79
         },
         {
+            "id": 40,
             "name": "BODY WASH HYPOALLERGENIC - 355ML",
             "image": "database/images/41.jpg",
             "description": "Attitude Shampoo is made from the safest and friendly natural ingredients, uses worry free and hypoallergenic ingredients, completely suitable for the little ones.",
@@ -78,6 +89,7 @@
             "price": 8.28
         },
         {
+            "id": 41,
             "name": "BLUE CEDAR SHOWER GEL - 400ML",
             "image": "database/images/42.jpg",
             "description": "This rich and distinctive shower gel is a blend of the aromas of blue cedar and Swedish mountain herbs and trees. Bursting with luxurious aromas to lift your day. Contains natural vitamin E, glycerine and organic green tea known for its antioxidant qualities.",
@@ -85,6 +97,7 @@
             "price": 4.41
         },
         {
+            "id": 42,
             "name": "NATURAL DEODORANT - ROSEMARY - 75ML",
             "image": "database/images/43.jpg",
             "description": "Green People's natural deodorant is a gentle and effective roll-on deo with prebiotics, it does not prevent the essential process of perspiration reduces bacterial growth. Contains Rosemary aroma.",
@@ -92,6 +105,7 @@
             "price": 8.15
         },
         {
+            "id": 43,
             "name": "FACE CONTOUR CREAM - 50ML",
             "image": "database/images/44.jpg",
             "description": "Quuen of the Hive has been created to give your face the royal treatment from the blend of natural ingredients such as organic manuka honey & bee venom.",
@@ -99,6 +113,7 @@
             "price": 41.99
         },
         {
+            "id": 44,
             "name": "MAGNESIUM BODY BUTTER - 180ML",
             "image": "database/images/45.jpg",
             "description": "Magnesium Body Butter is a moisturising body butter containing a great balance of ingredients specially combined for being kind to skin. A blend of magnesium oil, shea butter, cocoa butter, coconut oil and vitamin E.",
@@ -106,6 +121,7 @@
             "price": 7.69
         },
         {
+            "id": 45,
             "name": "BODY WASH GIFT PACK - 600ML",
             "image": "database/images/46.jpg",
             "description": "This pampering trio features 3 of Weleda's most popular Body Washes, which are gentle on the body leaving it cleansed and soft without drying the skin. The subtle fragrances are a pleasure to experience making every bath or shower a treat for every sense.",
@@ -113,6 +129,7 @@
             "price": 17.90
         },
         {
+            "id": 46,
             "name": "VITAMIN C - BALANCING FACIAL TONER - 250ML",
             "image": "database/images/47.jpg",
             "description": "To rebalance skin tone and moisture levels, our pore perfecting combination of Aloe, Cucumber and Papaya Extracts purifies and hydrates while targeting areas of hyperpigmentation. Plant-derived Vitamin C, a powerful antioxidant and cell energizer, helps eliminate free radical damage caused by daily sun exposure to help fight the visible signs of photo-aging.",
@@ -120,6 +137,7 @@
             "price": 9.57
         },
         {
+            "id": 47,
             "name": "ORGANIC SOAP - CALMING & MOISTURISING - 40G",
             "image": "4database/images/48.jpg",
             "description": "Bentley Organic has created this small handy soap perfect for a travel bag, made with lavender, aloe vera and jojoba.",
@@ -127,6 +145,7 @@
             "price": 0.85
         },
         {
+           "id": 48,
             "name": "SEAWEED & CITRUS SHAMPOO - 5L",
             "image": "database/images/49.jpg",
             "description": "This refreshing shampoo blends the antioxidant qualities of wild harvested Seaweed with aromatic lemon aromas. A perfect balance between the green and the blue halves of our planet.",
@@ -134,6 +153,7 @@
             "price": 49.99
         },
         {
+            "id": 49,
             "name": "CONDITIONER - STRENGTHENING PEPPERMINT - 325ML",
             "image": "database/images/50.jpg",
             "description": "Rich plant emollients plus revitalizing Babassu Oil, Vitamin E, Guar, Arginine and Peppermint condition hair while repairing elasticity to help prevent future breakage for stronger, smoother, healthier-looking hair.",
@@ -141,6 +161,7 @@
             "price": 6.30
         },
         {
+            "id": 50,
             "name": "JOJOBA SHAMPOO - 400ML",
             "image": "database/images/51.jpg",
             "description": "This refreshing shampoo is a blend of Jojoba and Seaweed with Panthenol (Pro-vitamin B5) known for its rejuvenating qualities. Wakey wakey!",
@@ -148,6 +169,7 @@
             "price": 6.00
         },
         {
+            "id": 51,
             "name": "EXQUISITE SHINE ARGAN HAIR OIL SPRAY - 100ML",
             "image": "database/images/52.jpg",
             "description": "Inecto Naturals Exquisite Shine Argan Hair Oil Spray is made with pure organic argan oil, spray onto hair to help lift and nourish whilst adding a healthy shine the spray also aids the hair by giving it the great smell of argan.",
@@ -155,13 +177,15 @@
             "price": 4.18
         },
         {
-            "name": "BAMFORD GERANIUM BATH OIL  250ml",
+            "id": 52,
+            "name": "Bamford Geranium Bath Oil - 250ml",
             "image": "database/images/53.jpg",
             "description": "Bamford Geranium Bath Oil is a blend of essential oils suspended in natural oils of sweet almond and apricot kernel beautifully presented in Bamford's iconic green glass bottle. This toning and relaxing bath oil brings the spa into your home and helps bring balance to the mind while gently hydrating the body. The Bamford Rose Collection is scented with a floral heart of precious Moroccan 'hundred' leaved rose, ylang ylang flower and camomile, with fruity nuances of lemon and blackcurrant bud to bestows tranquillity and inner peace.",
             "ingredients": "HELIANTHUS ANUUS (SUNFLOWER) SEED OIL*, OLEA EUROPAEA (OLIVE) FRUIT OIL*, GLYCERYL CAPRYLATE, POLYGLYCERYL-3 PALMITATE, EUCALYPTUS GLOBULUS LEAF OIL, LAVANDULA ANGUSTIFOLIA (LAVENDER) FLOWER OIL, PRUNUS AMYGDALUS DULCIS (SWEET ALMOND) OIL*, PRUNUS ARMENIACA (APRICOT KERNEL OIL)*, PELARGONIUM GRAVEOLENS (GERANIUM) FLOWER OIL, MENTHA PIPERITA (PEPPERMINT) OIL, LAVANDULA HYBRIDA (LAVENDER) OIL, DYPTERYX ODORATA (TONKA BEAN) SEED EXTRACT, LINALOOL, LIMONENE, CITRONELLOL, GERANIOL, COUMARIN, CITRAL.",
             "price": 45.00
         },
         {
+            "id": 53,
             "name": "BODHI & BIRCH JASMINE FALLS BATH & SHOWER THERAPY  200ml",
             "image": "database/images/54.jpg",
             "description": "Bodhi & Birch Jasmin Falls Bath & Shower Therapy is a potent blend of the euphoric aroma of intoxicating Jasmine, High-Altitude Lavender and grounding Vetiver, which is designed to help de-stress the body, soothe the mind and promote an overall sense of well-being. Ideal at the end of the day to encourage sleep. Skin is left cleansed and regenerated. Senses are deeply relaxed.",
@@ -169,42 +193,48 @@
             "price": 20.00
         },
         {
-            "name": "BURT'S BEES THERAPEUTIC BATH CRYSTALS  450g",
+            "id": 54,
+            "name": "BURT'S BEES THERAPEUTIC BATH CRYSTALS - 450g",
             "image": "database/images/55.jpg",
             "description": "Burt's Bees Therapeutic Bath Crystals relieve the body after strenuous exercise which can be great for the body, but hard on muscles. Indulge in a warm bath of salt crystals and essential oils after a workout to help release the lactic acid that builds up during physical activity causing muscle ache. The penetrating action of Burt's Bees all natural Therapeutic Bath Crystals essential oils helps stimulate the elimination of waste products, helping muscles feel as good as new.",
             "ingredients": "maris sal (sea salt, sel marin), sodium bicarbonate, parfum (fragrance), eucapyptus leaf oil, citrus medica limonum (lemon) oil, rosemary oil, tocopherol, glycine soja (soybean) oil, citral, limonene.",
             "price": 11.99
         },
         {
-            "name": "COWSHED SLEEPY COW BATH SALTS  300g",
+            "id": 55,
+            "name": "COWSHED SLEEPY COW BATH SALTS - 300g",
             "image": "database/images/56.jpg",
             "description": "Cowshed Sleepy Cow Bath Salts contain a bespoke and unique aromatherapy blend of Melissa and Lemon Myrtle essential oils that can help relieve tension and stress",
             "ingredients": "maris sal/sea salt/sel marin, sodium chloride (himalayan crystal) salt, glycerin (vegetable), caprylic/capric triglyceride, alchemilla vulgaris (lady’s mantle) leaf extract",
             "price": 18.00
         },
         {
-            "name": "ELEMENTAL HERBOLOGY DETOX BOTANICAL BATHING INFUSION  150ml",
+            "id": 56,
+            "name": "ELEMENTAL HERBOLOGY DETOX BOTANICAL BATHING INFUSION - 150ml",
             "image": "database/images/57.jpg",
             "description": "Elemental Herbology Detox Botanical Bathing Infusion is a detoxifying bath oil to help reduce fluid retention, invigorate circulation and shift toxins that can manifest as cellulite, leaving you positively energized and revived whilst softening and nourishing the skin.",
             "ingredients": "Prunus Amygdalus Dulcis (Sweet Almond) Oil *, Prunus Persica (Peach) Kernel Oil*, C12-13 Pareth-3 Simmondsia Chinensis (Jojoba) Seed Oil*, Rosmarinus Officinalis (Rosemary) Leaf Oil*, Citrus Grandis (Grapefruit) Peel Oil*, Juniperus Communis Fruit Oil*, Pelargonium Graveolens Flower Oil*, Tocopheryl Acetate (Vitamin E), Citral*, Geraniol*, Citronellol*, Limonene*, Linalool*. *Ingredients derived from 100% natural source",
             "price": 16.78
         },
         {
-            "name": "BATH & SHOWER OIL SWEET LULLABY ",
+            "id": 57,
+            "name": "BATH & SHOWER OIL SWEET LULLABY",
             "image": "database/images/58.jpg",
             "description": "Lola's Apothecary Bath & Shower Oil Sweet Lullaby will make you feel warmly embraced by a grounding blend of joyous and relaxing plant essences. Sweet Lullaby is a comforting scent with Lavender and Ylang Ylang at its soothing heart, grounded by Patchouli and Vanilla at its spicy base, and uplifted by Sweet Orange in the top note to sing a sweet lullaby. This oil is extraordinarily concentrated, with one bottle enough for approximately 40 baths.",
             "ingredients": "Prunus Amygdalus Dulcis (Sweet Almond) Seed Oil, Vitis Vinifera (Grape) Seed Oil, Lavandula Augustifolia (Lavender) Flower Oil",
             "price": 38.99
         },
         {
-            "name": "MAULI RITUALS HIMALAYAN HEALING SALTS  250g",
+            "id": 58,
+            "name": "MAULI RITUALS HIMALAYAN HEALING SALTS - 250g",
             "image": "database/images/59.jpg",
             "description": "Mauli Rituals Himalayan Healing Salts are a multi-layered blend that harbours the unique vibrational energy of himalayan pink salts, which contain 84 of the 92 trace minerals found in the body. These relaxing bath salts are formulated to counteract the damaging effects of daily demands, stress and constant radiation from mobile phones and computers that can leave us feeling fatigued, irritable and off balance.",
             "ingredients": "Himalayan Salts, Geranium, Sweet Blood Orange, Grapefruit, Lime, Patchouli, Sandalwood, Frankincense, Himalayan Cedarwood. Turkish rose, Jasmine Sambac Absolute, Rose Otto, Vanilla Absolute, Lavender, Rose Quartz Crystals, Citronellol, Geraniol, Linalool, Eugenol, Cinnamal, Benzyl Alcohol, Farnesol.",
             "price": 26.50
         },
         {
-            "name": "PINKS BOUTIQUE ROSE CRYSTAL BATH SOAK  200g",
+            "id": 59,
+            "name": "PINKS BOUTIQUE ROSE CRYSTAL BATH SOAK - 200g",
             "image": "database/images/60.jpg",
             "description": "Pinks Boutique Rose Crystal Bath Soak is a luxurious gently cleansing Himalayan mineral crystal bath soak infused with an organic blend of rose and lavender essential oils, Dead Sea Salts and Epsom salts. This soothing bath soak will assist with skin healing and softening, as well as inducing a sense of wellbeing and calm, helping you to relax and promote sound sleep.",
             "ingredients": "Sodium chloride (Himalayan mineral crystal), maris sal (Dead Sea salt), magnesium sulphate (Epsom salt), parfum",

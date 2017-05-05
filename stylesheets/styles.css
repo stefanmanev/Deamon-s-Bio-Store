@@ -146,7 +146,28 @@ div.gallery {
 }
 
 .img-title {
-    border: 1px solid black;
+    padding: 12px 12px;
+    position: absolute;
+    right: 14px;
+    left: 14px;
+    bottom: 0px;
+    background: rgba(113, 113, 113, 0.6)
+}
+
+h3.product-name {
+    text-transform: lowercase;
+    font-size: 1.2em;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+h3.product-name:first-letter {
+    text-transform: uppercase;
+}
+
+.img-title p {
+    margin-top: 8px;
+    opacity: 1;
 }
 
 footer {
@@ -221,7 +242,7 @@ footer div.col-xs-6 {
     
     #navigation a.btn {
         margin-top: 12px;
-        border: 1px solid black;
+        border: 1px solid #000000;
         border-radius: 8px;
     }
 
