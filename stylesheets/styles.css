@@ -109,6 +109,10 @@ nav {
     overflow: auto;
 }
 
+.img-responsive {
+    height: 50%;
+}
+
 #arr {
     text-align: center;
 }
@@ -248,7 +252,6 @@ footer div.col-xs-6 {
         position: relative;
         display: inline-block;
     }
-
     
     #copyright {
         font-size: 0.88em;
