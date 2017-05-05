@@ -1,10 +1,12 @@
 const header = {
     logged: () => {
+        $('#shopping-cart-button').removeClass('hidden');
         $('#logout-button').removeClass('hidden');
         $('#right-button').hide();
         $('#left-button').hide();
     },
     loggedOut: () => {
+        $('#shopping-cart-button').addClass('hidden');
         $('#logout-button').addClass('hidden');
         $('#right-button').show();
         $('#left-button').show();
