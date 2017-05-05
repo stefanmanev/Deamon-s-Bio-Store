@@ -1,4 +1,4 @@
-{
+﻿{
     "products": [
         {
             "name": "ORGANIC ROSEWATER SPRAY - 100ML",
@@ -9,7 +9,7 @@
         },
         {
             "name": "NEEM & PROPOLIS CONDITIONER - 400ML",
-            "image": "database/images/32.jpg",
+            "database/images/32.jpg",
             "description": "This fresh conditioner is a blend of Propolis and Neem, both of which are known for their natural antibacterial qualities, and are said to help discourage lice. Infused with citrus aromas to gently cleanse hair and scalp.",
             "ingredients": "Aqua, Cetearyl alcohol, Brassica campestris seed oil, Melia azadirachta seed oil, Propolis cera, Citrus aurantium amara leaf/twig oil, Litsea cubeba fruit oil, Citrus aurantium dulcis peel oil, Citrus reticulata peel oil, Cinnamomum zeylanicum leaf oil, Melaleuca alternifolia leaf oil, Cetrimonium chloride, Tocopherol, Helianthus annuus seed oil, Sodium benzoate , Potassium Sorbate, Citric acid, Citral , Eugenol , Limonene",
             "price": 3.70
