@@ -31,8 +31,6 @@ var sammyApp = Sammy(function(){
     });
 });
 
-
-
 let value = $('#testInput').val();
 let button = $('#testButton').on('click',() => {
     /*let object = {
