@@ -8,9 +8,11 @@ import { getTemplate as getHome } from 'homeController';
 import { getTemplate as getRegister } from 'registerController';
 import { getTemplate as getAbout } from 'aboutController';
 import { getTemplate as getBiofood } from 'biofoodController';
-import { getTemplate as getBiofoodDetailedPage } from 'biofoodDetailedController';
 import { getTemplate as getCosmetics } from 'cosmeticsController';
 import { getTemplate as getSupplements } from 'supplementsController';
+import { getTemplate as getBiofoodDetailedPage } from 'biofoodDetailedController';
+import { getTemplate as getCosmeticsDetailedPage } from 'cosmeticDetailedController';
+import { getTemplate as getSupplementsDetailedPage } from 'supplementDetailedController';
 import { data } from 'data';
 
 var sammyApp = Sammy(function(){
@@ -32,7 +34,11 @@ var sammyApp = Sammy(function(){
 
     this.get('#/cosmetics', getCosmetics);
 
+    this.get('#/cosmetics/:id', getCosmeticsDetailedPage);
+
     this.get('#/supplements', getSupplements);
+
+    this.get('#/supplements/:id', getSupplementsDetailedPage);
     
     $(function () {
         sammyApp.run('#/');
