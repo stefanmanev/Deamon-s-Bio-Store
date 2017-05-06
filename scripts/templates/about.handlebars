@@ -1,4 +1,22 @@
 <article>
     <h1 id="about-header">About us</h1>
-    <p>Team Demon's Biostore is a project for an online-based store, which was designed with educational purposed in Telerik Academy by Boyan Michev, Stefan Manev and Yuri Ivanov.</p>
+    <p>Team Demon's Biostore is a project for an online-based store, which was designed with educational purposed in Telerik
+        Academy by Boyan Minchev, Stefan Manev and Yuri Ivanov.</p>
+    <p style="margin-bottom:10px; font-weight:bold">Sofia, 31 Alexander Malinov Blvd.</p>
+    <div id="map" style="height: 300px; position:center"></div>
+    <script>
+        function initMap() {
+            var uluru = { lat: 42.650911, lng: 23.379464 };
+            var map = new google.maps.Map(document.getElementById('map'), {
+                zoom: 15,
+                center: uluru
+            });
+            var marker = new google.maps.Marker({
+                position: uluru,
+                map: map
+            });
+        }
+    </script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA450IP0hVWCQ6KWAElezmBaKiM1OcEkk8&callback=initMap"
+        type="text/javascript"></script>
 </article>
