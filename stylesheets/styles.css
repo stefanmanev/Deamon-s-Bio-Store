@@ -154,6 +154,12 @@ div.gallery {
     background: rgba(113, 113, 113, 0.6)
 }
 
+h2.product-name {
+    text-transform: lowercase;
+    font-size: 1.2em;
+    color: #FDF6F0;
+}
+
 h3.product-name {
     text-transform: lowercase;
     font-size: 1.2em;
@@ -161,7 +167,7 @@ h3.product-name {
     opacity: 1;
 }
 
-h3.product-name:first-letter {
+h2.product-name:first-letter, h3.product-name:first-letter {
     text-transform: uppercase;
 }
 
@@ -169,6 +175,14 @@ h3.product-name:first-letter {
     color: #000000;
     margin-top: 8px;
     opacity: 1;
+}
+
+.img-container {
+    margin-bottom: 24px;
+}
+
+.img-container img {
+    border-radius: 8px;
 }
 
 footer {

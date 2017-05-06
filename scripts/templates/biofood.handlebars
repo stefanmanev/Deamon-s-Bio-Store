@@ -9,7 +9,7 @@
 <div id="main-container">
     {{#each biofoods}}
     <div class="gallery col-sm-4 col-md-3">
-        <a href="#/biofoods{{id}}">
+        <a href="#/biofoods/:{{id}}">
             <img class="main-image img-responsive" src="{{image}}" />
             <div class="img-title">
                 <h3 class='product-name'>{{name}}</h3>
@@ -18,4 +18,4 @@
         </a>
     </div>
     {{/each}}
-</div>
+</div>>

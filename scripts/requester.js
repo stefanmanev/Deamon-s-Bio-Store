@@ -56,6 +56,7 @@ class Requester {
     }
 
     getJSON(url, options) {
+        console.log(option);
         var promise = new Promise(function (resolve, reject) {
             var headers = options || {};
             $.ajax({

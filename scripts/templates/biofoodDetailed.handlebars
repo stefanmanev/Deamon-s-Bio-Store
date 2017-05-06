@@ -1,18 +1,9 @@
-<div id="arr">
-    <ul id="arr-navigation">
-        <li id="first-arr"><a href="#" class="btn">Arrange products by price</a></li>
-        <li id="second-arr"><a href="#" class="btn">Arrange products by price (descending)</a></li>
-        <li id="third-arr"><a href="#" class="btn">Arrange products by name</a></li>
-        <li><a href="#" class="btn">Arrange products by name(descending)</a></li>
-    </ul>
-</div>
-<div id="main-container">
-    {{#each biofoods}}
-    <div class="gallery col-sm-4 col-md-3">
-        <img class="main-image img-responsive" src="{{img}}" />
-        <div class="img-title">
-            <h5>{{price}}</h5>
-        </div>
+<div>
+    <div class="img-container col-sm-6">
+        <img src="{{image}}" />
     </div>
-    {{/each}}
+    <div class="col-sm-6">
+        <h2 class="product-name">{{name}}</h2>
+    </div>
+
 </div>
