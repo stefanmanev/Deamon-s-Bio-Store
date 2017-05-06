@@ -10,6 +10,7 @@ import { getTemplate as getAbout } from 'aboutController';
 import { getTemplate as getBiofood } from 'biofoodController';
 import { getTemplate as getBiofoodDetailedPage } from 'biofoodDetailedController';
 import { getTemplate as getCosmetics } from 'cosmeticsController';
+import { getTemplate as getSupplements } from 'supplementsController';
 import { data } from 'data';
 
 var sammyApp = Sammy(function(){
@@ -30,6 +31,8 @@ var sammyApp = Sammy(function(){
     this.get('#/biofoods/:id', getBiofoodDetailedPage);
 
     this.get('#/cosmetics', getCosmetics);
+
+    this.get('#/supplements', getSupplements);
     
     $(function () {
         sammyApp.run('#/');
@@ -50,7 +53,7 @@ let button = $('#testButton').on('click',() => {
     data.readUserDataOnce()
         .then((e) => {console.log(e.val())} );
 
-    firebase.database().ref('products/cosmetics').set(cosmetics);
+    firebase.database().ref('products/supplements').set(supplements);
 
     // data.updateData({name: 'chikiriki', cena: 123});
 });

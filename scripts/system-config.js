@@ -21,6 +21,7 @@ System.config({
    'biofoodDetailedController': 'scripts/controllers/biofoodDetailedController.js',
    'cosmeticsController': 'scripts/controllers/cosmeticsController.js',
    'searchController': 'scripts/controllers/searchController.js',
+   'supplementsController': 'scripts/controllers/supplementsController.js',
    // templates
    'templates': 'scripts/helpers/templates.js',
 

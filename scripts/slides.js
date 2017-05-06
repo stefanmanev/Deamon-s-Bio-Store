@@ -11,7 +11,7 @@ var showSlides = function () {
     slideIndex++;
 
     if (slideIndex > slides.length) {
-        slideIndex = 1
+        slideIndex = 1;
     }
 
     for (i = 0; i < dots.length; i++) {
