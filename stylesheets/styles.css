@@ -209,11 +209,26 @@ p.product-description {
     margin-left: auto;
 }
 
+div.product-add {
+    width: 92%;
+    margin-top: 48px;
+    margin-bottom: 40px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 68px;
+    border-bottom: 1px solid #FDF6F0;
+}
+
+button.product-add-btn {
+    background-color: #917C62;
+    color: #FDF6F0;
+}
+
 h3.product-quantity, h3.product-information {
+    width: 92%;
     font-size: 1.2em;
     color: #576A6D;
-    width: 92%;
-    margin-top: 36px;
+    margin-top: 16px;
     margin-right: auto;
     margin-left: auto;
 }

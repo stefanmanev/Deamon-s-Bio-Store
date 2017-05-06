@@ -4,7 +4,7 @@
     </div>
     <div class="col-sm-6">
         <h2 class="product-name">{{name}}</h2>
-        <p class="product-price">Price: {{price}}</p>
+        <p class="product-price">Price: $ {{price}}</p>
         <h3 class="product-quantity">Quantity</h3>
         <div class="dropdown dropdown-alignment">
             <button class="btn col-xs-12" type="button" data-toggle="dropdown">Select
@@ -18,9 +18,16 @@
                 <li><a href="#">6</a></li>
             </ul>
         </div>
+        <div class="product-add">
+            <button class="product-add-btn btn col-xs-12">Add to Cart</button>
+        </div>
         <div>
-            <h3 class="product-information">Product Information</h3>
+            <h3 class="product-information">Product Information:</h3>
             <p class="product-description">{{description}}</p>
+        </div>
+        <div>
+            <h3 class="product-information">Ingredients:</h3>
+            <p class="product-description">{{ingredients}}</p>
         </div>
     </div>
 
