@@ -492,6 +492,13 @@ article p {
     color: #FDF6F0;
 }
 
+#map {
+    height: 300px; 
+    position: center;
+    border-radius: 8px;
+    margin-bottom: 12px;
+}
+
 h3.form-header {
     font-family: 'Variane Script';
     font-size: 2.4em;
@@ -536,6 +543,12 @@ h3.form-header {
     outline: none;
 }
 
+@media (max-width: 707px) { 
+    #map {
+        height: 240px;
+    }
+}
+
 @media (max-width: 540px) {  
     #sign-up-form {
         width: 86%;
@@ -543,6 +556,10 @@ h3.form-header {
 
     h3.form-header {
         font-size: 2em;
+    }
+    
+    #map {
+        height: 200px;
     }
 }
 
@@ -553,5 +570,10 @@ h3.form-header {
     
     h3.form-header {
         font-size: 1.6em;
+    }
+
+    
+    #map {
+        height: 120px;
     }
 }
