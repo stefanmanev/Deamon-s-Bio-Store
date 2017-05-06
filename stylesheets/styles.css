@@ -163,8 +163,9 @@ h2.product-name {
 }
 
 h3.product-name {
+    font-family: "Comic Sans MS", cursive, sans-serif;
     text-transform: lowercase;
-    font-size: 1.2em;
+    font-size: 1.1em;
     color: #FFFFFF;
     opacity: 1;
 }
