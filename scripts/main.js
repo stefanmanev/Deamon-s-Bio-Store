@@ -56,24 +56,10 @@ var sammyApp = Sammy(function(){
     });
 });
 
-let value = $('#testInput').val();
-let button = $('#testButton').on('click',() => {
-    /*let object = {
-        username: 'shturkel',
-        comment: 'arebe',
-        products: {
-            vafla: 'chudo',
-            chips: 'nqkyv'
-        }
-    };*/
-    //data.updateUserData(object);
-    data.readUserDataOnce()
-        .then((e) => {console.log(e.val())} );
+
 
     //firebase.database().ref('products/supplements').set(supplements);
 
-    // data.updateData({name: 'chikiriki', cena: 123});
-});
 
 
 export function sammy() {

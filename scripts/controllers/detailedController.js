@@ -1,5 +1,6 @@
 import { templates } from 'templates';
 import { data } from 'data';
+import toastr from 'toastr';
 
 let $main = $('#main');
 
@@ -16,6 +17,7 @@ export function getTemplate(params) {
             let $cartButton = $('#cartButton');
             $cartButton.on('click', () => {
                 data.updateUserData(res[$id]);
+                toastr.success('Added to cart!');
             });
         }) 
           .then(() => {
