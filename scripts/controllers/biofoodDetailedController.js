@@ -11,8 +11,12 @@ export function getTemplate(params) {
     data.checkIfLogged();
       Promise.all([templates.getTemplate('productDetailed'),
                 data.getAllProducts('/biofoods')])
-        .then(([template, data]) => {
-            $main.html(template(data[$id]));
+        .then(([template, res]) => {
+            $main.html(template(res[$id]));
+            let $cartButton = $('#cartButton');
+            $cartButton.on('click', () => {
+                data.updateUserData(res[$id]);
+            });
         }) 
           .then(() => {
               let $logoutButton = $('#logout');
