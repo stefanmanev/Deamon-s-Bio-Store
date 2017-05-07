@@ -1,4 +1,4 @@
-body, div, nav, main, ul, li, form, input, h1, h2, h3 {
+body, div, nav, main, ul, li, form, input, h1, h2, h3, p {
     margin: 0;
     padding: 0;
 }
@@ -192,6 +192,31 @@ h2.product-name:first-letter, h3.product-name:first-letter {
     margin: 0 auto;
 }
 
+div.social-networking {
+    width: 92%;
+    margin-top: 24px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: right;
+}
+
+i.fa-facebook, i.fa-twitter {
+    font-size: 24px;
+}
+
+.facebook, .twitter {
+    font-size: 18px;
+    border-radius: 8px;
+}
+
+.facebook:hover {
+    color: #3B5998;
+}
+
+.twitter:hover {
+    color: #FF0000;
+}
+
 p.product-price {
     font-size: 1.8em;
     color: #576A6D;
@@ -288,25 +313,39 @@ footer div.col-xs-6 {
     padding-bottom: 99999px;
 }
 
+#copyright-container {
+    margin-bottom: 2px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    height: 45px;
+}
+
 #copyright {
     font-style: italic;
     color: #FDF6F0;
-    height: 24px;
 }
 
 #logo {
     text-align: right;
+    margin-bottom: 2px;
+    padding-top: 5px;
+    padding-bottom: 0px;
+    height: 45px;
 }
 
 #logo a, #logo a:visited {
     color: #000000;
 }
 
+i.fa-facebook-official, i.fa-twitter-square {
+    font-size: 28px;
+}
+
 .fa-facebook-official:hover {
     color: #3B5998;
 }
 
-.fa-twitter:hover {
+.fa-twitter-square:hover {
     color: #FF0000;
 }
 
@@ -381,9 +420,17 @@ footer div.col-xs-6 {
         position: relative;
         display: inline-block;
     }
+
+    #copyright-container {
+        padding-top: 5px;
+    }
     
     #copyright {
         font-size: 0.88em;
+    }
+    
+    i.fa-facebook-official, i.fa-twitter-square {
+        font-size: 24px;
     }
 }
 
