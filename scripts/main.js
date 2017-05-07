@@ -9,6 +9,7 @@ import { getTemplate as getRegister } from 'registerController';
 import { getTemplate as getAbout } from 'aboutController';
 import { getTemplate as getCategory } from 'categoryController';
 import { getTemplate as getDetailedPage } from 'detailedController';
+import { getTemplate as getCart } from 'cartController';
 import { data } from 'data';
 
 var sammyApp = Sammy(function(){
@@ -47,6 +48,8 @@ var sammyApp = Sammy(function(){
     this.get('#/supplements/:id', function() {
         getDetailedPage('/supplements');
     });
+
+     this.get('#/cart', getCart);
     
     $(function () {
         sammyApp.run('#/');
@@ -67,7 +70,7 @@ let button = $('#testButton').on('click',() => {
     data.readUserDataOnce()
         .then((e) => {console.log(e.val())} );
 
-    firebase.database().ref('products/supplements').set(supplements);
+    //firebase.database().ref('products/supplements').set(supplements);
 
     // data.updateData({name: 'chikiriki', cena: 123});
 });

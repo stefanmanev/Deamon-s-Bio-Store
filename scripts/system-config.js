@@ -20,6 +20,7 @@ System.config({
    'categoryController': 'scripts/controllers/categoryController.js',
    'detailedController': 'scripts/controllers/detailedController.js',
    'searchController': 'scripts/controllers/searchController.js',
+   'cartController': 'scripts/controllers/cartController.js',
    // templates
    'templates': 'scripts/helpers/templates.js',
 
