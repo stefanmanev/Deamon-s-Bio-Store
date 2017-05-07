@@ -17,13 +17,21 @@ var sammyApp = Sammy(function(){
         this.redirect('#/home');
     });
 
-    this.get('#/home', getHome);
+    this.get('#/home', function() {
+         getHome();
+     });
 
-    this.get('#/register', getRegister);
+    this.get('#/register', function() {
+         getRegister();
+     });
 
-    this.get('#/login', getLogin);
+    this.get('#/login', function() {
+         getLogin();
+     });
 
-    this.get('#/about', getAbout);
+    this.get('#/about', function() {
+         getaAbout();
+     });
 
     this.get('#/biofoods', function() {
         getCategory('/biofoods');
@@ -49,7 +57,9 @@ var sammyApp = Sammy(function(){
         getDetailedPage('/supplements');
     });
 
-     this.get('#/cart', getCart);
+     this.get('#/cart', function() {
+         getCart();
+     });
     
     $(function () {
         sammyApp.run('#/');
