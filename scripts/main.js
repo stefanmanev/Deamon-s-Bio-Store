@@ -17,21 +17,13 @@ var sammyApp = Sammy(function(){
         this.redirect('#/home');
     });
 
-    this.get('#/home', function() {
-         getHome();
-     });
+    this.get('#/home', getHome);
 
-    this.get('#/register', function() {
-         getRegister();
-     });
+    this.get('#/register', getRegister);
 
-    this.get('#/login', function() {
-         getLogin();
-     });
+    this.get('#/login', getLogin);
 
-    this.get('#/about', function() {
-         getAbout();
-     });
+    this.get('#/about', getAbout);
 
     this.get('#/biofoods', function() {
         getCategory('/biofoods');
