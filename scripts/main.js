@@ -30,7 +30,7 @@ var sammyApp = Sammy(function(){
      });
 
     this.get('#/about', function() {
-         getaAbout();
+         getAbout();
      });
 
     this.get('#/biofoods', function() {
