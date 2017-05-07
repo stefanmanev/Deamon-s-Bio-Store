@@ -26,15 +26,21 @@ var sammyApp = Sammy(function(){
 
     this.get('#/about', getAbout);
 
-    this.get('#/biofoods', getCategory('/biofoods'));
+    this.get('#/biofoods', function() {
+        getCategory('/biofoods')
+    });
 
     this.get('#/biofoods/:id', getBiofoodDetailedPage);
 
-    this.get('#/cosmetics', getCategory('/cosmetics'));
+    this.get('#/cosmetics', function() {
+        getCategory('/cosmetics')
+    });
 
     this.get('#/cosmetics/:id', getCosmeticsDetailedPage);
 
-    this.get('#/supplements', getCategory('/supplements'));
+    this.get('#/supplements', function() {
+        getCategory('/supplements')
+    });
 
     this.get('#/supplements/:id', getSupplementsDetailedPage);
     
