@@ -155,6 +155,7 @@ div.gallery {
 }
 
 h2.product-name {
+    font-family: "Comic Sans MS", cursive, sans-serif;
     text-transform: lowercase;
     font-size: 2em;
     color: #FDF6F0;
