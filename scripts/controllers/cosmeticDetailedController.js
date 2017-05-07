@@ -12,7 +12,7 @@ export function getTemplate(params) {
       Promise.all([templates.getTemplate('productDetailed'),
                 data.getAllProducts()])
         .then(([template, data]) => {
-            $main.html(template(data.cosmetics[$id - 30]));
+            $main.html(template(data.cosmetics[$id]));
         }) 
           .then(() => {
               let $logoutButton = $('#logout');
