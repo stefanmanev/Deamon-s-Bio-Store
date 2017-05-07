@@ -16,8 +16,13 @@ export function getTemplate(params) {
         var newUser = {
           username: $('#tb-newUsername').val(), //email
           email: $('#tb-newEmail').val(), //username
-          password: $('#tb-newPassword').val()
+          password: $('#tb-newPassword').val(),
+          passwordConfirm: $('#tb-newPasswordRepeated').val()
         };
+          if (newUser.password !== newUser.passwordConfirm) {
+            toastr.error("Passwords doesn't match");
+            return;
+          }
         data.createUser(newUser.email, newUser.password)
             .then(() => { data.writeUserData({username: newUser.username});})
             .then(data.checkIfLogged)
