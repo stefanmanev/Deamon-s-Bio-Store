@@ -10,7 +10,7 @@ export function getTemplate(params) {
 
     data.checkIfLogged();
       Promise.all([templates.getTemplate('productDetailed'),
-                data.getAllProducts('/biofoods')])
+                data.getAllProducts(params)])
         .then(([template, res]) => {
             $main.html(template(res[$id]));
             let $cartButton = $('#cartButton');

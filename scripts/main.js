@@ -8,9 +8,7 @@ import { getTemplate as getHome } from 'homeController';
 import { getTemplate as getRegister } from 'registerController';
 import { getTemplate as getAbout } from 'aboutController';
 import { getTemplate as getCategory } from 'categoryController';
-import { getTemplate as getBiofoodDetailedPage } from 'biofoodDetailedController';
-import { getTemplate as getCosmeticsDetailedPage } from 'cosmeticDetailedController';
-import { getTemplate as getSupplementsDetailedPage } from 'supplementDetailedController';
+import { getTemplate as getDetailedPage } from 'detailedController';
 import { data } from 'data';
 
 var sammyApp = Sammy(function(){
@@ -27,22 +25,28 @@ var sammyApp = Sammy(function(){
     this.get('#/about', getAbout);
 
     this.get('#/biofoods', function() {
-        getCategory('/biofoods')
+        getCategory('/biofoods');
     });
 
-    this.get('#/biofoods/:id', getBiofoodDetailedPage);
+    this.get('#/biofoods/:id', function() {
+        getDetailedPage('/biofoods');
+    });
 
     this.get('#/cosmetics', function() {
-        getCategory('/cosmetics')
+        getCategory('/cosmetics');
     });
 
-    this.get('#/cosmetics/:id', getCosmeticsDetailedPage);
+    this.get('#/cosmetics/:id', function() {
+        getDetailedPage('/cosmetics');
+    });
 
     this.get('#/supplements', function() {
-        getCategory('/supplements')
+        getCategory('/supplements');
     });
 
-    this.get('#/supplements/:id', getSupplementsDetailedPage);
+    this.get('#/supplements/:id', function() {
+        getDetailedPage('/supplements');
+    });
     
     $(function () {
         sammyApp.run('#/');

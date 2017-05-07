@@ -18,10 +18,8 @@ System.config({
    'header': 'scripts/helpers/header-changer.js',
    'showSlides': 'scripts/slides.js',
    'categoryController': 'scripts/controllers/categoryController.js',
-   'biofoodDetailedController': 'scripts/controllers/biofoodDetailedController.js',
-   'cosmeticDetailedController': 'scripts/controllers/cosmeticDetailedController.js',
+   'detailedController': 'scripts/controllers/detailedController.js',
    'searchController': 'scripts/controllers/searchController.js',
-   'supplementDetailedController': 'scripts/controllers/supplementDetailedController.js',
    // templates
    'templates': 'scripts/helpers/templates.js',
 
