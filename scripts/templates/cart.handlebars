@@ -1,5 +1,6 @@
 <div id="main-container">
     {{#each this}}
+        {{#if image}}
     <div class="gallery col-sm-4 col-md-3">
         <a href="#/{{type}}/:{{id}}">
             <img class="main-image img-responsive" src="{{image}}" />
@@ -9,5 +10,8 @@
             </div>
         </a>
     </div>
+    {{else}}
+    <h1> Nothing </h1>
+    {{/if}}
     {{/each}}
 </div>
