@@ -4,8 +4,8 @@ import { data } from 'data';
 let $main = $('#main');
 export function getTemplate(params) {
     data.checkIfLogged();
-      Promise.all([templates.getTemplate('cosmetics'),
-                data.getAllProducts()])
+      Promise.all([templates.getTemplate('category'),
+                data.getAllProducts('cosmetics')])
         .then(([template, data]) => {
             $main.html(template(data));
         }) 

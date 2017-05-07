@@ -45,8 +45,9 @@ class Data {
         return firebase.auth().signOut();
     }
 
-    getAllProducts() {
-        return $.get('https://biostore-dc055.firebaseio.com/products.json');
+    getAllProducts(category) {
+        let $url = `https://biostore-dc055.firebaseio.com/products/${category}.json`;
+        return $.get($url);
     }
 
     updateData (data){

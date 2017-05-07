@@ -10,9 +10,9 @@ export function getTemplate(params) {
 
     data.checkIfLogged();
       Promise.all([templates.getTemplate('productDetailed'),
-                data.getAllProducts()])
+                data.getAllProducts('cosmetics')])
         .then(([template, data]) => {
-            $main.html(template(data.cosmetics[$id]));
+            $main.html(template(data[$id]));
         }) 
           .then(() => {
               let $logoutButton = $('#logout');
