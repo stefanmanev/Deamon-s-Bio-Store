@@ -17,12 +17,10 @@ System.config({
    'firebase': 'scripts/firebase-config.js',
    'header': 'scripts/helpers/header-changer.js',
    'showSlides': 'scripts/slides.js',
-   'biofoodController': 'scripts/controllers/biofoodController.js',
+   'categoryController': 'scripts/controllers/categoryController.js',
    'biofoodDetailedController': 'scripts/controllers/biofoodDetailedController.js',
-   'cosmeticsController': 'scripts/controllers/cosmeticsController.js',
    'cosmeticDetailedController': 'scripts/controllers/cosmeticDetailedController.js',
    'searchController': 'scripts/controllers/searchController.js',
-   'supplementsController': 'scripts/controllers/supplementsController.js',
    'supplementDetailedController': 'scripts/controllers/supplementDetailedController.js',
    // templates
    'templates': 'scripts/helpers/templates.js',

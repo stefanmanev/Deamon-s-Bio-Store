@@ -7,9 +7,7 @@ import { getTemplate as getLogin } from 'loginController';
 import { getTemplate as getHome } from 'homeController';
 import { getTemplate as getRegister } from 'registerController';
 import { getTemplate as getAbout } from 'aboutController';
-import { getTemplate as getBiofood } from 'biofoodController';
-import { getTemplate as getCosmetics } from 'cosmeticsController';
-import { getTemplate as getSupplements } from 'supplementsController';
+import { getTemplate as getCategory } from 'categoryController';
 import { getTemplate as getBiofoodDetailedPage } from 'biofoodDetailedController';
 import { getTemplate as getCosmeticsDetailedPage } from 'cosmeticDetailedController';
 import { getTemplate as getSupplementsDetailedPage } from 'supplementDetailedController';
@@ -28,15 +26,15 @@ var sammyApp = Sammy(function(){
 
     this.get('#/about', getAbout);
 
-    this.get('#/biofoods', getBiofood);
+    this.get('#/biofoods', getCategory('/biofoods'));
 
     this.get('#/biofoods/:id', getBiofoodDetailedPage);
 
-    this.get('#/cosmetics', getCosmetics);
+    this.get('#/cosmetics', getCategory('/cosmetics'));
 
     this.get('#/cosmetics/:id', getCosmeticsDetailedPage);
 
-    this.get('#/supplements', getSupplements);
+    this.get('#/supplements', getCategory('/supplements'));
 
     this.get('#/supplements/:id', getSupplementsDetailedPage);
     
