@@ -5,7 +5,7 @@ let $main = $('#main');
 export function getTemplate(params) {
     data.checkIfLogged();
       Promise.all([templates.getTemplate('category'),
-                data.getAllProducts('cosmetics')])
+                data.getAllProducts('/cosmetics')])
         .then(([template, data]) => {
             $main.html(template(data));
         }) 

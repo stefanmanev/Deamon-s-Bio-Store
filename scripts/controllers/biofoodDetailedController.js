@@ -10,7 +10,7 @@ export function getTemplate(params) {
 
     data.checkIfLogged();
       Promise.all([templates.getTemplate('productDetailed'),
-                data.getAllProducts('biofoods')])
+                data.getAllProducts('/biofoods')])
         .then(([template, data]) => {
             $main.html(template(data[$id]));
         }) 
