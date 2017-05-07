@@ -217,6 +217,51 @@ i.fa-facebook, i.fa-twitter {
     color: #FF0000;
 }
 
+
+@media (max-width: 767px) {
+    i.fa-facebook, i.fa-twitter {
+        font-size: 20px;
+    }
+
+    .facebook, .twitter {
+        font-size: 16px;
+        border-radius: 8px;
+    }
+}
+
+@media (max-width: 540px) {
+    i.fa-facebook, i.fa-twitter {
+        font-size: 18px;
+    }
+
+    .facebook, .twitter {
+        font-size: 14px;
+        border-radius: 8px;
+    }
+}
+
+@media (max-width: 460px) {
+    i.fa-facebook, i.fa-twitter {
+        font-size: 14px;
+    }
+
+    .facebook, .twitter {
+        font-size: 10px;
+        border-radius: 8px;
+    }
+}
+
+@media (max-width: 360px) {
+    i.fa-facebook, i.fa-twitter {
+        font-size: 12px;
+    }
+
+    .facebook, .twitter {
+        font-size: 8px;
+        border-radius: 8px;
+    }
+}
+
 p.product-price {
     font-size: 1.8em;
     color: #576A6D;
