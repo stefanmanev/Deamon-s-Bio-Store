@@ -824,3 +824,15 @@ h3.form-header {
         height: 120px;
     }
 }
+
+#shopping-cart {
+    font-family: 'Variane Script';
+    text-align: center;
+    color: #FDF6F0;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+div.cart-gallery {
+    width: 50px;
+}
