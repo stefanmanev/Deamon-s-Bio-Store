@@ -1,7 +1,7 @@
 import $ from 'jquery';
 import toastr from 'toastr';
 import Sammy from 'sammy';
-import Handlebars  from 'handlebars';
+import Handlebars from 'handlebars';
 import Bootstrap from 'bootstrap';
 import { getTemplate as getLogin } from 'loginController';
 import { getTemplate as getHome } from 'homeController';
