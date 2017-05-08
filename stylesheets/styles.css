@@ -524,22 +524,30 @@ i.fa-facebook-official, i.fa-twitter-square {
     }
 }
 
-/* Slideshow container */
-.slideshow-container {
-  max-width: 1200px;
-  position: relative;
-  margin: auto;
-  padding-bottom: 12px;
+/* Slideshow */
+#slideshow {
+    margin: auto;
+}
+
+#slideshow-header, #aside-header {
+    font-family: 'Variane Script';
+    text-align: center;
+    margin-top: 6px;
+    margin-bottom: 6px;
 }
 
 /* Caption text */
 .text {
     color: #FDF6F0;
     font-size: 1.2em;
-    padding: 36px 12px;
+    padding-right: 6px;
+    padding-left: 6px;
+    padding-bottom: 36px;
     position: absolute;
     bottom: 8px;
-    width: 100%;
+    width: 92%;
+    left: 50%;
+    transform: translateX(-50%);
     text-align: center;
 }
 
@@ -555,7 +563,7 @@ i.fa-facebook-official, i.fa-twitter-square {
 .numbertext {
     color: #FDF6F0;
     font-size: 1.2em;
-    padding: 8px 28px;
+    padding: 12px 24px;
     position: absolute;
     top: 0;
 }
@@ -568,16 +576,17 @@ i.fa-facebook-official, i.fa-twitter-square {
     border-radius: 8px;
 }
 
-/* Image size */
 .slide-show-image {
     width: 96%;
     display: block;
     margin: auto;
+    border-radius: 8px;
 }
 
 .dot-container {
     text-align: center;
     margin-top: 12px;
+    margin-bottom: 12px;
 }
 
 /* The dots/bullets/indicators */
@@ -621,15 +630,65 @@ i.fa-facebook-official, i.fa-twitter-square {
   }
 }
 
+div.aside {
+    max-height: 200px;
+    width: 92%;
+    margin-top: 12px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 12px;
+    padding: 6px;
+    border: 1px solid #D1BEA9;
+    border-radius: 8px;
+}
+
+div.aside:hover {
+    background-color: #B49B79;
+}
+
+div.aside h2 {
+    text-transform: lowercase;
+    font-size: 1.4em;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    margin-bottom: 12px;
+}
+
+div.aside p {
+    font-size: 0.92em;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    white-space:nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+div.aside h2::first-letter {
+    text-transform: uppercase;
+}
+
 /* On smaller screens */
 @media (max-width: 540px) {  
   .text {
-      font-size: 1em;
+      font-size: 0.88em;
+      padding-bottom: 24pxl
   }
   
   .numbertext {
       font-size: 1em;
       padding: 8px 20px;
+  }
+}
+
+@media (max-width: 360px) {  
+  .text {
+      font-size: 0.6em;
+      padding-right: 6px;
+      padding-left: 6px;
+      padding-bottom: 12px;
+  }
+  
+  .numbertext {
+      font-size: 0.8em;
+      padding: 4px 10px;
   }
 }
 

@@ -1,30 +1,51 @@
-<div class="slideshow-container">
+<div id="slideshow" class="col-sm-8">
+    <h2 id="slideshow-header">Our Best Offers</h2>
+    <div class="col-xs-12">
     <div class="mySlides fade">
         <div class="numbertext"><span>1 / 3</span></div>
         <a href="#/biofoods/:{{biofoods.[0].id}}"><img class="slide-show-image" src="{{biofoods.[0].image}}"></a>
         <div class="text"><span>{{biofoods.[0].name}}</span></div>
     </div>
+    </div>
 
+    <div class="col-xs-12">
     <div class="mySlides fade">
         <div class="numbertext"><span>2 / 3</span></div>
         <a href="#/cosmetics/:{{cosmetics.[0].id}}"><img class="slide-show-image" src="{{cosmetics.[0].image}}"></a>
         <div class="text"><span>{{cosmetics.[0].name}}</span></div>
     </div>
+    </div>
 
+    <div class="col-xs-12">
     <div class="mySlides fade">
         <div class="numbertext"><span>3 / 3</span></div>
         <a href="#/supplements/:{{supplements.[0].id}}"><img class="slide-show-image" src="{{supplements.[0].image}}"></a>
         <div class="text"><span>{{supplements.[0].name}}</span></div>
     </div>
-
-    </brs>
-
+    </div>
+    <div class="col-xs-12">
     <div class="dot-container">
         <span class="dot"></span> 
         <span class="dot"></span> 
         <span class="dot"></span> 
     </div>
-
+    </div>
 </div>
+
+<aside class="col-sm-4">
+    <h2 id="aside-header">See Also:</h2>
+    <div class="aside">
+        <h2>{{biofoods.[1].name}}</h2>
+        <p>{{biofoods.[1].description}}</p>
+    </div>
+    <div class="aside">
+        <h2>{{cosmetics.[1].name}}</h2>
+        <p>{{cosmetics.[1].description}}</p>
+        </div>
+    <div class="aside">
+        <h2>{{supplements.[1].name}}</h2>
+        <p>{{supplements.[1].description}}</p>
+        </div>
+</aside>
 
 
