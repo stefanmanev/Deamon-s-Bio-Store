@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Bio Store tests</title>
+    <link rel="stylesheet" href="../node_modules/mocha/mocha.css">
+
+</head>
+
+<body>
+    <div id="mocha"></div>
+    <script src="../node_modules/systemjs/dist/system.js"></script>
+    <script src="../scripts/system-config.js"></script>
+    <script src="../node_modules/mocha/mocha.js"></script>
+    <script src="../node_modules/chai/chai.js"></script>
+    <script src="../node_modules/sinon/pkg/sinon.js"></script>
+    <script src="../node_modules/sinon-chai/lib/sinon-chai.js"></script>
+    <!--<script>
+        mocha.setup('bdd');
+    </script>
+    <script>
+        mocha.run();
+    </script>-->
+    <script>
+        System.import('tests')
+    </script>
+</body>
+
+</html>
