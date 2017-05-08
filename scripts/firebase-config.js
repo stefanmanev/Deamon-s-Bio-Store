@@ -9,7 +9,6 @@
         messagingSenderId: "216615352376"
     };
     firebase.initializeApp(config);
-    console.log('firbase registed');
 
 }());
 

@@ -29,6 +29,13 @@ class Data {
             userId = user.uid;
         return firebase.database().ref('users/' + userId).push(data);
     }
+
+    removeUserData (data){
+        const user = firebase.auth().currentUser,
+            userId = user.uid;
+        return firebase.database().ref('users/' + userId).remove(data);
+    }
+    
     
     writeUserData(data){  //data is a object {---}
         const user = firebase.auth().currentUser,

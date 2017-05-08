@@ -16,8 +16,11 @@ export function getTemplate(params) {
             let $ul = $('ul').eq(2);
             console.log($removeButton);
             $.each($removeButton, (i, el) => {
-                $(el).on('click', function() {
+                $(el).on('click', function(ev) {
+                let $ev = $(ev.target);
+                console.log($ev);
                 $(this).parents('.cart-item').remove();
+                data.removeUserData();
                 });
             });
         })
