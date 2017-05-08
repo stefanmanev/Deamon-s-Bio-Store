@@ -34,18 +34,27 @@
 
 <aside class="col-sm-4">
     <h2 id="aside-header">See Also:</h2>
-    <div class="aside">
-        <h2>{{biofoods.[1].name}}</h2>
-        <p>{{biofoods.[1].description}}</p>
-    </div>
-    <div class="aside">
-        <h2>{{cosmetics.[1].name}}</h2>
-        <p>{{cosmetics.[1].description}}</p>
+    <a href="#/biofoods/:{{biofoods.[1].id}}">
+        <div class="aside">
+            <h2>{{biofoods.[1].name}}</h2>
+            <p>Price: ${{biofoods.[1].price}}</p>
+            <p>{{biofoods.[1].description}}</p>
         </div>
-    <div class="aside">
-        <h2>{{supplements.[1].name}}</h2>
-        <p>{{supplements.[1].description}}</p>
+    </a>
+    <a href="#/biofoods/:{{cosmetics.[1].id}}">
+        <div class="aside">
+            <h2>{{cosmetics.[1].name}}</h2>
+            <p>Price: ${{cosmetics.[1].price}}</p>
+            <p>{{cosmetics.[1].description}}</p>
         </div>
+    </a>
+    <a href="#/biofoods/:{{supplements.[1].id}}">
+        <div class="aside">
+            <h2>{{supplements.[1].name}}</h2>
+            <p>Price: ${{supplements.[1].price}}</p>
+            <p>{{supplements.[1].description}}</p>
+        </div>
+    </a>
 </aside>
 
 

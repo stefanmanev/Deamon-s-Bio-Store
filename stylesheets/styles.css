@@ -5,7 +5,7 @@ body, div, nav, main, ul, li, form, input, h1, h2, h3, p {
 
 /* Edge horizontal scrollbar bug fix */
 
-body, div {
+body {
     overflow-x: hidden;
 }
 
@@ -636,16 +636,26 @@ i.fa-facebook-official, i.fa-twitter-square {
   }
 }
 
+/* Edge bug fix */
+
+#slideshow {
+    overflow: hidden;
+}
+
 div.aside {
-    max-height: 200px;
+    max-height: 300px;
     width: 92%;
-    margin-top: 12px;
     margin-right: auto;
     margin-left: auto;
-    margin-bottom: 12px;
+    margin-bottom: 18px;
     padding: 6px;
     border: 1px solid #D1BEA9;
     border-radius: 8px;
+}
+
+aside a, aside a:hover, aside a:active {
+    color: #000000;
+    text-decoration: none;
 }
 
 div.aside:hover {
@@ -654,17 +664,18 @@ div.aside:hover {
 
 div.aside h2 {
     text-transform: lowercase;
-    font-size: 1.4em;
+    font-size: 1.6em;
     font-family: "Comic Sans MS", cursive, sans-serif;
     margin-bottom: 12px;
 }
 
 div.aside p {
-    font-size: 0.92em;
+    font-size: 1.12em;
     font-family: "Comic Sans MS", cursive, sans-serif;
     white-space:nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+    margin-top: 18px;
 }
 
 div.aside h2::first-letter {
@@ -672,10 +683,25 @@ div.aside h2::first-letter {
 }
 
 /* On smaller screens */
+@media (max-width: 1000px) {
+    div.aside {
+        margin-bottom: 12px;
+    }
+
+    div.aside h2 {
+        font-size: 1.4em;
+    }
+
+    div.aside p {
+        font-size: 1em;
+        margin-top: 6px;
+    }
+}
+
 @media (max-width: 540px) {  
   .text {
       font-size: 0.88em;
-      padding-bottom: 24pxl
+      padding-bottom: 24px;
   }
   
   .numbertext {
