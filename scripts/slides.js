@@ -4,6 +4,11 @@ var showSlides = function () {
     var i;
     var slides = document.getElementsByClassName("mySlides");
     var dots = document.getElementsByClassName("dot");
+
+    if (slides.length === 0) {
+        return;
+    }
+
     for (i = 0; i < slides.length; i++) {
         slides[i].style.display = "none";
     }
