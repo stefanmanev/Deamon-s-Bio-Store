@@ -119,25 +119,6 @@ nav {
     text-align: center;
 }
 
-#arr-navigation {
-    list-style-type: none;
-    margin: auto;
-}
-
-#arr-navigation li {
-    display: inline;
-    text-align: center;
-}
-
-#arr-navigation a.btn {
-    color: #000000;
-    font-size: 0.8em;
-}
-
-#first-arr, #second-arr, #third-arr {
-    border-right: 1px solid #000000;
-}
-
 #main-container {
     margin-bottom: 20px;
 }
@@ -422,10 +403,6 @@ i.fa-facebook-official, i.fa-twitter-square {
     #navigation a.btn {
         font-size: 1em;
     }
-
-    #arr-navigation a.btn {
-        font-size: 0.68em;
-    }
 }
 
 @media (max-width: 767px) {
@@ -459,19 +436,6 @@ i.fa-facebook-official, i.fa-twitter-square {
 }
 
 @media(max-width: 707px) {        
-    #arr-navigation li {
-        display: block;
-    }
-
-    #first-arr, #second-arr, #third-arr {
-        border-right: none;
-    }
-
-    #arr-navigation {
-        position: relative;
-        display: inline-block;
-    }
-
     #copyright-container {
         padding-top: 5px;
     }
