@@ -1,5 +1,6 @@
 import { templates } from 'templates';
 import { data } from 'data';
+import { searchHelper } from 'searchHelper';
 
 let $main = $('#main');
 export function getSearchResults(params) {
@@ -13,25 +14,7 @@ export function getSearchResults(params) {
       Promise.all([templates.getTemplate('searchResults'),
                 data.getAllProducts(params)])
         .then(([template, data]) => {
-            for (let i = 0; i < data.biofoods.length; i += 1) {
-                let $searchedName = data.biofoods[i].name;
-                if ($searchedName.toLowerCase().indexOf($id.toLowerCase()) >= 0) {
-                    $products.push(data.biofoods[i]);
-                } 
-            }
-            for (let i = 0; i < data.cosmetics.length; i += 1) {
-                let $searchedName = data.cosmetics[i].name;
-                if ($searchedName.toLowerCase().indexOf($id.toLowerCase()) >= 0) {
-                    $products.push(data.cosmetics[i]);
-                } 
-            }
-            for (let i = 0; i < data.supplements.length; i += 1) {
-                let $searchedName = data.supplements[i].name;
-                if ($searchedName.toLowerCase().indexOf($id.toLowerCase()) >= 0) {
-                    $products.push(data.supplements[i]);
-                } 
-            }
-            $main.html(template($products));
+            $main.html(template(searchHelper(data.biofoods, data.cosmetics, data.supplements, $id)));
         }) 
           .then(() => {
               let $logoutButton = $('#logout');

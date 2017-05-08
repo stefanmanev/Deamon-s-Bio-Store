@@ -16,6 +16,8 @@ System.config({
    'aboutController': '../scripts/controllers/aboutController.js',
    'firebase': '../scripts/firebase-config.js',
    'header': '../scripts/helpers/header-changer.js',
+   'urlUpdater': '../scripts/helpers/urlUpdater.js',
+   'searchHelper': '../scripts/helpers/searchHelper.js',
    'showSlides': '../scripts/slides.js',
    'categoryController': '../scripts/controllers/categoryController.js',
    'detailedController': '../scripts/controllers/detailedController.js',
