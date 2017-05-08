@@ -11,6 +11,7 @@ import { getTemplate as getCategory } from 'categoryController';
 import { getTemplate as getDetailedPage } from 'detailedController';
 import { getTemplate as getCart } from 'cartController';
 import { data } from 'data';
+import { firebase } from 'firebase';
 
 var sammyApp = Sammy(function(){
     this.get('#/', function () {
