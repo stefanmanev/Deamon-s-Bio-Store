@@ -10,6 +10,7 @@ import { getTemplate as getAbout } from 'aboutController';
 import { getTemplate as getCategory } from 'categoryController';
 import { getTemplate as getDetailedPage } from 'detailedController';
 import { getTemplate as getCart } from 'cartController';
+import { getSearchResults } from 'searchController';
 import { data } from 'data';
 import { firebase } from 'firebase';
 
@@ -50,7 +51,11 @@ var sammyApp = Sammy(function(){
         getDetailedPage('/supplements');
     });
 
-     this.get('#/cart', getCart);
+    this.get('#/search/:id', function() {
+        getSearchResults('/');
+    });
+
+    this.get('#/cart', getCart);
     
     $(function () {
         sammyApp.run('#/');
