@@ -1,3 +1,4 @@
+import $ from 'jquery';
 import { templates } from 'templates';
 import { data } from 'data';
 import toastr from 'toastr';
@@ -20,6 +21,22 @@ export function getTemplate(params) {
                 toastr.success('Added to cart!');
             });
         }) 
+        .then(() => {
+            let $facebook = $('.social-networking .facebook');
+            let $twitter  = $('.social-networking .twitter');
+            $facebook.on('click', () => {
+                window.open(
+                'https://www.facebook.com/sharer/sharer.php?u=example.org',
+                '_blank' // <- This is what makes it open in a new window.
+                );
+            });
+            $twitter.on('click', () => {
+                window.open(
+                    'https://twitter.com/intent/tweet',
+                    '_blank'
+                );
+            });
+        })
           .then(() => {
               let $logoutButton = $('#logout');
               $logoutButton.on('click',() => {
