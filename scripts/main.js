@@ -50,9 +50,7 @@ var sammyApp = Sammy(function(){
         getDetailedPage('/supplements');
     });
 
-     this.get('#/cart', function() {
-         getCart();
-     });
+     this.get('#/cart', getCart);
     
     $(function () {
         sammyApp.run('#/');
