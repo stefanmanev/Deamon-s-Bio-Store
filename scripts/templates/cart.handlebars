@@ -1,20 +1,35 @@
 <div id="main-container">
     <h2 id="shopping-cart">Your Shopping Cart:</h2>
+    <div id="cart-list" class="col-sm-6">
     {{#each this}}
-        <div>
             <ul>
-                <li>
+                <li class="cart-item">
                     <div class="gallery cart-gallery">
-                    <a href="#/{{type}}/:{{id}}">
-                        <img class="main-image img-responsive" src="{{image}}" />
-                    </a>
+                        <a href="#/{{type}}/:{{id}}">
+                            <img class="main-image img-responsive" src="{{image}}" />
+                        </a>
+                        <a class="cart-remove-button" href="#">Remove this item</a>
                     </div>
                     <div>
                         <h3 class='product-name'>{{name}}</h3>
-                        <p>$ {{price}}</p>
+                        <p class="cart-price">Price $ {{price}}</p>
+                        <p class="product-quantity">Quantity:</p>
                     </div>
                 </li>
             </ul>
-        </div>
     {{/each}}
+    </div>
+    <div id="price-list" class="col-sm-6">
+        <h3 class="price-box">Total Price:</h3>
+        <ol>
+            {{#each this}}
+            <li>
+                {{name}}: {{price}}
+            </li>
+            {{/each}}
+            <li>
+                Total: 
+            </li>    
+        </ol>
+    </div>
 </div>
