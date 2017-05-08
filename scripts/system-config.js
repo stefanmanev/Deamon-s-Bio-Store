@@ -23,6 +23,8 @@ System.config({
    'cartController': 'scripts/controllers/cartController.js',
    // templates
    'templates': 'scripts/helpers/templates.js',
+   // unit tests
+   'tests':'tests.js',
 
 
    // Library files
