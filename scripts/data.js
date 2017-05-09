@@ -53,7 +53,7 @@ class Data {
     }
 
     getAllProducts(category) {
-        let $url = `https://biostore-dc055.firebaseio.com/products${category}.json`;
+        let $url = `https://biostore-final.firebaseio.com/products${category}.json`;
         return $.get($url);
     }
 

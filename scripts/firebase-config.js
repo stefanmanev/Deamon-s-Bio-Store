@@ -1,13 +1,13 @@
 
 (function () {
     const config = {
-        apiKey: "AIzaSyD-xecmt07UOpoiTjPQgFz3H9FWkZ33utw",
-        authDomain: "biostore-dc055.firebaseapp.com",
-        databaseURL: "https://biostore-dc055.firebaseio.com",
-        projectId: "biostore-dc055",
-        storageBucket: "biostore-dc055.appspot.com",
-        messagingSenderId: "216615352376"
-    };
+    apiKey: "AIzaSyCO68h7p1fNAJQq3wRXME9S6S5zkaIGwFU",
+    authDomain: "biostore-final.firebaseapp.com",
+    databaseURL: "https://biostore-final.firebaseio.com",
+    projectId: "biostore-final",
+    storageBucket: "biostore-final.appspot.com",
+    messagingSenderId: "1063042802632"
+  };
     firebase.initializeApp(config);
 
 }());
