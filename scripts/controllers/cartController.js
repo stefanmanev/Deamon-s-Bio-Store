@@ -14,12 +14,11 @@ export function getTemplate(params) {
         .then(() => {
             let $removeButton = $('.cart-remove-button');
             let $ul = $('ul').eq(2);
-            console.log($removeButton);
             $.each($removeButton, (i, el) => {
                 $(el).on('click', function(ev) {
                 let $ev = $(ev.target);
-                console.log($ev);
                 $(this).parents('.cart-item').remove();
+                $('#price-list').remove();
                 data.removeUserData();
                 });
             });
